@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Milica\\source\\repos\\Hospital\\Hospital library\\Hospital library.csproj": {}
+    "D:\\PSW\\psw_hospital\\Hospital\\Hospital library\\Hospital library.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Milica\\source\\repos\\Hospital\\Hospital library\\Hospital library.csproj": {
+    "D:\\PSW\\psw_hospital\\Hospital\\Hospital library\\Hospital library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Milica\\source\\repos\\Hospital\\Hospital library\\Hospital library.csproj",
+        "projectUniqueName": "D:\\PSW\\psw_hospital\\Hospital\\Hospital library\\Hospital library.csproj",
         "projectName": "Hospital library",
-        "projectPath": "C:\\Users\\Milica\\source\\repos\\Hospital\\Hospital library\\Hospital library.csproj",
-        "packagesPath": "C:\\Users\\Milica\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Milica\\source\\repos\\Hospital\\Hospital library\\obj\\",
+        "projectPath": "D:\\PSW\\psw_hospital\\Hospital\\Hospital library\\Hospital library.csproj",
+        "packagesPath": "C:\\Users\\Sara\\.nuget\\packages\\",
+        "outputPath": "D:\\PSW\\psw_hospital\\Hospital\\Hospital library\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\install\\Microsoft Visual Studio\\2019\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Milica\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,6 +45,10 @@
           "targetAlias": "netstandard2.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Analyzers": {
               "target": "Package",
               "version": "[3.1.0, )"
             },
@@ -75,7 +83,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

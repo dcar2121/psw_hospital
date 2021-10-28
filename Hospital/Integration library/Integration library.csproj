@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Integration_library</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Partnership\Model\" />
+    <Folder Include="Partnership\Repository\" />
+    <Folder Include="Partnership\Service\" />
+    <Folder Include="Pharmacy\Model\" />
+    <Folder Include="Pharmacy\Service\" />
+    <Folder Include="Pharmacy\Repository\" />
+    <Folder Include="SharedModel\" />
+    <Folder Include="Tendering\Model\" />
+    <Folder Include="Tendering\Repository\" />
+    <Folder Include="Tendering\Service\" />
+  </ItemGroup>
+
+</Project>

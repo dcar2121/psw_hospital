@@ -5379,25 +5379,31 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.EntityFrameworkCore >= 3.1.0",
+      "Microsoft.EntityFrameworkCore.Analyzers >= 3.1.0",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.0",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 3.1.0",
       "Npgsql.EntityFrameworkCore.PostgreSQL.Design >= 1.1.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Milica\\.nuget\\packages\\": {}
+    "C:\\Users\\Sara\\.nuget\\packages\\": {},
+    "D:\\install\\Microsoft Visual Studio\\2019\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Milica\\source\\repos\\Hospital\\IntegrationAPI\\IntegrationAPI.csproj",
+      "projectUniqueName": "D:\\PSW\\psw_hospital\\Hospital\\IntegrationAPI\\IntegrationAPI.csproj",
       "projectName": "IntegrationAPI",
-      "projectPath": "C:\\Users\\Milica\\source\\repos\\Hospital\\IntegrationAPI\\IntegrationAPI.csproj",
-      "packagesPath": "C:\\Users\\Milica\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Milica\\source\\repos\\Hospital\\IntegrationAPI\\obj\\",
+      "projectPath": "D:\\PSW\\psw_hospital\\Hospital\\IntegrationAPI\\IntegrationAPI.csproj",
+      "packagesPath": "C:\\Users\\Sara\\.nuget\\packages\\",
+      "outputPath": "D:\\PSW\\psw_hospital\\Hospital\\IntegrationAPI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\install\\Microsoft Visual Studio\\2019\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Milica\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5424,6 +5430,10 @@
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[3.1.0, )"
+          },
+          "Microsoft.EntityFrameworkCore.Analyzers": {
             "target": "Package",
             "version": "[3.1.0, )"
           },
@@ -5460,7 +5470,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

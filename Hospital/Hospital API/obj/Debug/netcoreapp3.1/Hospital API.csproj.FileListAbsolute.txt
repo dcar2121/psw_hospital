@@ -1,0 +1,32 @@
+D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\appsettings.json
+D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Hospital API.exe
+D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Hospital API.deps.json
+D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Hospital API.runtimeconfig.json
+D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Hospital API.runtimeconfig.dev.json
+D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Hospital API.dll
+D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Hospital API.pdb
+D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Npgsql.dll
+D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
+D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.csproj.AssemblyReference.cache
+D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.GeneratedMSBuildEditorConfig.editorconfig
+D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.AssemblyInfoInputs.cache
+D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.AssemblyInfo.cs
+D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.csproj.CoreCompileInputs.cache
+D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.MvcApplicationPartsAssemblyInfo.cache
+D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\staticwebassets\Hospital API.StaticWebAssets.Manifest.cache
+D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\staticwebassets\Hospital API.StaticWebAssets.xml
+D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\scopedcss\bundle\Hospital API.styles.css
+D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.RazorTargetAssemblyInfo.cache
+D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.csproj.CopyComplete
+D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.dll
+D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.pdb
+D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.genruntimeconfig.cache

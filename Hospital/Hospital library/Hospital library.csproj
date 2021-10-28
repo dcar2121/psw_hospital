@@ -6,7 +6,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Graphical editor\**" />
+    <Compile Remove="Medical records\**" />
+    <Compile Remove="Rooms and equipment\**" />
+    <Compile Remove="Shared model\**" />
+    <EmbeddedResource Remove="Graphical editor\**" />
+    <EmbeddedResource Remove="Medical records\**" />
+    <EmbeddedResource Remove="Rooms and equipment\**" />
+    <EmbeddedResource Remove="Shared model\**" />
+    <None Remove="Graphical editor\**" />
+    <None Remove="Medical records\**" />
+    <None Remove="Rooms and equipment\**" />
+    <None Remove="Shared model\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Analyzers" Version="3.1.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -16,19 +32,19 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Graphical editor\Model\" />
-    <Folder Include="Graphical editor\Service\" />
-    <Folder Include="Graphical editor\Repository\" />
-    <Folder Include="Medical records\Model\" />
-    <Folder Include="Medical records\Repository\" />
-    <Folder Include="Medical records\Service\" />
-    <Folder Include="Rooms and equipment\Model\" />
-    <Folder Include="Rooms and equipment\Repository\" />
-    <Folder Include="Rooms and equipment\Service\" />
+    <Folder Include="GraphicalEditor\Model\" />
+    <Folder Include="GraphicalEditor\Repository\" />
+    <Folder Include="GraphicalEditor\Service\" />
+    <Folder Include="MedicalRecords\Model\" />
+    <Folder Include="MedicalRecords\Repository\" />
+    <Folder Include="MedicalRecords\Service\" />
+    <Folder Include="RoomsAndEquipment\Model\" />
+    <Folder Include="RoomsAndEquipment\Repository\" />
+    <Folder Include="RoomsAndEquipment\Service\" />
     <Folder Include="Schedule\Model\" />
-    <Folder Include="Schedule\Service\" />
     <Folder Include="Schedule\Repository\" />
-    <Folder Include="Shared model\" />
+    <Folder Include="Schedule\Service\" />
+    <Folder Include="SharedModel\" />
   </ItemGroup>
 
 </Project>
