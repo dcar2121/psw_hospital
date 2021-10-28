@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Hospital_library</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.1.0" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.Design" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Graphical editor\Model\" />
+    <Folder Include="Graphical editor\Service\" />
+    <Folder Include="Graphical editor\Repository\" />
+    <Folder Include="Medical records\Model\" />
+    <Folder Include="Medical records\Repository\" />
+    <Folder Include="Medical records\Service\" />
+    <Folder Include="Rooms and equipment\Model\" />
+    <Folder Include="Rooms and equipment\Repository\" />
+    <Folder Include="Rooms and equipment\Service\" />
+    <Folder Include="Schedule\Model\" />
+    <Folder Include="Schedule\Service\" />
+    <Folder Include="Schedule\Repository\" />
+    <Folder Include="Shared model\" />
+  </ItemGroup>
+
+</Project>
