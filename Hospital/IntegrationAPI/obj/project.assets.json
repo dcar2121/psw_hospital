@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "Hospital-PSW/1.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Hospital-PSW.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Hospital-PSW.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
         "type": "package",
         "compile": {
@@ -1507,6 +1519,19 @@
     }
   },
   "libraries": {
+    "Hospital-PSW/1.2.0": {
+      "sha512": "BYMiWFwvdI35jR2yf4SvNwFCbD41mXYL2ZHyy1OZ8Gm11EBRxg///+3FmefBIFoEmwDncxe4GeKi4h3bmmY13g==",
+      "type": "package",
+      "path": "hospital-psw/1.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "hospital-psw.1.2.0.nupkg.sha512",
+        "hospital-psw.nuspec",
+        "lib/netcoreapp3.1/Hospital-PSW.dll",
+        "lib/netcoreapp3.1/Hospital-PSW.runtimeconfig.json"
+      ]
+    },
     "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
       "sha512": "1Am6l4Vpn3/K32daEqZI+FFr96OlZkgwK2LcT3pZ2zWubR5zTPW3/FkO1Rat9kb7oQOa4rxgl9LJHc5tspCWfg==",
       "type": "package",
@@ -5378,6 +5403,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Hospital-PSW >= 1.2.0",
       "Microsoft.EntityFrameworkCore >= 3.1.0",
       "Microsoft.EntityFrameworkCore.Analyzers >= 3.1.0",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.0",
@@ -5429,6 +5455,10 @@
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
+          "Hospital-PSW": {
+            "target": "Package",
+            "version": "[1.2.0, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[3.1.0, )"

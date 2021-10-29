@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "OKMg0jABTiZw8gxPyQ/TsTukNW//AipJdWPPYD5mcOY7Y4K0TJVfPzF8Jz7bT7DW7Nna23h96YmZTJMwQpMrqg==",
+  "dgSpecHash": "uQGOkuHhlexAvZ86IdseUBKqKW/yItRbJkQvllpz1pj3My73eV+lifgQQmsoWFq3ognQV/4a/2LN/8RmmRp5oQ==",
   "success": true,
   "projectFilePath": "D:\\PSW\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Sara\\.nuget\\packages\\hospital-psw\\1.2.0\\hospital-psw.1.2.0.nupkg.sha512"
+  ],
   "logs": []
 }

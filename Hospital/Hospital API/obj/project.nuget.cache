@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "VVjiJCxqJViaMZeTu+peKvNysBVjcMooDVFIW/ztG/Q/6gsoWXfGndalGTQE3bwbu7MvpbwV/et405Ahwj7Wkw==",
+  "dgSpecHash": "9DUduZHluQhUVWCzTWYgLtufaamoOBFD8avx4eY2u3q9IuG6v5WtStS53vCnXVolL7dYjyo2qrnEWyQWqw/hhw==",
   "success": true,
   "projectFilePath": "D:\\PSW\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Sara\\.nuget\\packages\\hospital-psw\\1.2.0\\hospital-psw.1.2.0.nupkg.sha512",
     "C:\\Users\\Sara\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\Sara\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\Sara\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

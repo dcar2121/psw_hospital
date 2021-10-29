@@ -26,7 +26,9 @@ D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\staticwebasset
 D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\staticwebassets\Hospital API.StaticWebAssets.xml
 D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\scopedcss\bundle\Hospital API.styles.css
 D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.RazorTargetAssemblyInfo.cache
-D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.csproj.CopyComplete
 D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.dll
 D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.pdb
 D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.genruntimeconfig.cache
+D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.csproj.CopyComplete
+D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Hospital-PSW.dll
+D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.MvcApplicationPartsAssemblyInfo.cs

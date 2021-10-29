@@ -1,40 +1,18 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>Hospital_library</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Graphical editor\**" />
-    <Compile Remove="Medical records\**" />
-    <Compile Remove="Rooms and equipment\**" />
-    <Compile Remove="Shared model\**" />
-    <EmbeddedResource Remove="Graphical editor\**" />
-    <EmbeddedResource Remove="Medical records\**" />
-    <EmbeddedResource Remove="Rooms and equipment\**" />
-    <EmbeddedResource Remove="Shared model\**" />
-    <None Remove="Graphical editor\**" />
-    <None Remove="Medical records\**" />
-    <None Remove="Rooms and equipment\**" />
-    <None Remove="Shared model\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Analyzers" Version="3.1.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.0">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.1.0" />
-    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.Design" Version="1.1.0" />
+    <PackageReference Include="Hospital-PSW" Version="1.2.0" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="GraphicalEditor\Model\" />
-    <Folder Include="GraphicalEditor\Repository\" />
     <Folder Include="GraphicalEditor\Service\" />
+    <Folder Include="GraphicalEditor\Repository\" />
     <Folder Include="MedicalRecords\Model\" />
     <Folder Include="MedicalRecords\Repository\" />
     <Folder Include="MedicalRecords\Service\" />

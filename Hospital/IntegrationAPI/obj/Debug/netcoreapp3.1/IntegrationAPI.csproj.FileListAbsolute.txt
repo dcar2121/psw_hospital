@@ -61,3 +61,5 @@ D:\PSW\psw_hospital\Hospital\IntegrationAPI\obj\Debug\netcoreapp3.1\IntegrationA
 D:\PSW\psw_hospital\Hospital\IntegrationAPI\obj\Debug\netcoreapp3.1\IntegrationAPI.dll
 D:\PSW\psw_hospital\Hospital\IntegrationAPI\obj\Debug\netcoreapp3.1\IntegrationAPI.pdb
 D:\PSW\psw_hospital\Hospital\IntegrationAPI\obj\Debug\netcoreapp3.1\IntegrationAPI.genruntimeconfig.cache
+D:\PSW\psw_hospital\Hospital\IntegrationAPI\bin\Debug\netcoreapp3.1\Hospital-PSW.dll
+D:\PSW\psw_hospital\Hospital\IntegrationAPI\obj\Debug\netcoreapp3.1\IntegrationAPI.MvcApplicationPartsAssemblyInfo.cs
