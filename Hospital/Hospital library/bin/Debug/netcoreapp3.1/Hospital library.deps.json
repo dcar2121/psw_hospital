@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Integration library/1.0.0": {
+      "Hospital library/1.0.0": {
         "runtime": {
-          "Integration library.dll": {}
+          "Hospital library.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Integration library/1.0.0": {
+    "Hospital library/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

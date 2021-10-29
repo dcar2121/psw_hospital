@@ -18,8 +18,4 @@
     <Folder Include="Tendering\Service\" />
   </ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Hospital-PSW" Version="1.2.0" />
-  </ItemGroup>
-
 </Project>
