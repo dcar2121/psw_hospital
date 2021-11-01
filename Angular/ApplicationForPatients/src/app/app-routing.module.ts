@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LayoutComponent } from './layout/layout.component';
-import { LayoutModule } from './layout/layout.module';
+import { HomepageLayoutComponent } from './homepage/homepage-layout/homepage-layout.component';
 
 const routes: Routes = [
 // {
@@ -11,11 +10,11 @@ const routes: Routes = [
   {
     
     path: 'patient',
-    component: LayoutComponent,
+    component: HomepageLayoutComponent,
     children: [
       {
         path: '',
-        loadChildren: () => import('./layout/layout.module').then(mod => mod.LayoutModule)
+        loadChildren: () => import('./homepage/homepage-layout/homepage-layout.module').then(mod => mod.HomepageLayoutModule)
       }
     ]
     

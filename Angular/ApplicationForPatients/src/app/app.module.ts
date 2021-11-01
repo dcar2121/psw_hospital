@@ -3,21 +3,21 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LayoutComponent } from './layout/layout.component';
-import { LayoutModule } from './layout/layout.module';
-import { ViewfeedbackComponent } from './viewfeedback/viewfeedback.component';
+import { HomepageLayoutComponent } from './homepage/homepage-layout/homepage-layout.component';
+import { HomepageLayoutModule } from './homepage/homepage-layout/homepage-layout.module';
+
 //import za LandingPageComponent - sam generise
 
 @NgModule({
   declarations: [
     AppComponent,
-    LayoutComponent,
+    HomepageLayoutComponent,
     //LandingPageComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    LayoutModule
+    HomepageLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

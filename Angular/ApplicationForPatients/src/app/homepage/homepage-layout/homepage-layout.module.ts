@@ -5,12 +5,12 @@ import { NavbarComponent } from "../components/navbar/navbar.component";
 import { SidebarComponent } from "../components/sidebar/sidebar.component";
 import { FeedbackComponent } from "../feedback/feedback.component";
 import { ViewfeedbackComponent } from "../viewfeedback/viewfeedback.component";
-import { LayoutRoutes } from "./layout.routing";
+import { HomepageLayoutRoutes } from "./homepage-layout.routing";
 
 @NgModule ({
     imports: [
         CommonModule,
-        RouterModule.forChild(LayoutRoutes),
+        RouterModule.forChild(HomepageLayoutRoutes),
     ],
     declarations: [
         NavbarComponent,
@@ -25,6 +25,6 @@ import { LayoutRoutes } from "./layout.routing";
     ]
 })
 
-export class LayoutModule { }
+export class HomepageLayoutModule { }
 
 
