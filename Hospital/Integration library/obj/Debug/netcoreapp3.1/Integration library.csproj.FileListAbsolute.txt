@@ -20,3 +20,7 @@ C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Integration libra
 C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.dll
 C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.pdb
 C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.genruntimeconfig.cache
+D:\PSW\psw_hospital\Hospital\Integration library\bin\Debug\netcoreapp3.1\Integration library.runtimeconfig.json
+D:\PSW\psw_hospital\Hospital\Integration library\bin\Debug\netcoreapp3.1\Integration library.runtimeconfig.dev.json
+D:\PSW\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.csproj.AssemblyReference.cache
+D:\PSW\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.genruntimeconfig.cache

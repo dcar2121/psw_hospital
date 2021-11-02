@@ -6,8 +6,6 @@ D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Hospital API.r
 D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Hospital API.runtimeconfig.dev.json
 D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Hospital API.dll
 D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Hospital API.pdb
-D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
-D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
@@ -76,3 +74,16 @@ C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Hospital API\obj\
 C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.dll
 C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.pdb
 C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.genruntimeconfig.cache
+D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Humanizer.dll
+D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll

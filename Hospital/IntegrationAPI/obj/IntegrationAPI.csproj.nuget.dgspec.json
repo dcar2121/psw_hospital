@@ -1,25 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pavko\\OneDrive\\Documents\\GitHub\\psw_hospital\\Hospital\\IntegrationAPI\\IntegrationAPI.csproj": {}
+    "D:\\PSW\\psw_hospital\\Hospital\\IntegrationAPI\\IntegrationAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pavko\\OneDrive\\Documents\\GitHub\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj": {
+    "D:\\PSW\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pavko\\OneDrive\\Documents\\GitHub\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj",
+        "projectUniqueName": "D:\\PSW\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj",
         "projectName": "Integration library",
-        "projectPath": "C:\\Users\\pavko\\OneDrive\\Documents\\GitHub\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj",
-        "packagesPath": "C:\\Users\\pavko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pavko\\OneDrive\\Documents\\GitHub\\psw_hospital\\Hospital\\Integration library\\obj\\",
+        "projectPath": "D:\\PSW\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj",
+        "packagesPath": "C:\\Users\\Sara\\.nuget\\packages\\",
+        "outputPath": "D:\\PSW\\psw_hospital\\Hospital\\Integration library\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "D:\\install\\Microsoft Visual Studio\\2019\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\pavko\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Sara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -90,22 +90,22 @@
         }
       }
     },
-    "C:\\Users\\pavko\\OneDrive\\Documents\\GitHub\\psw_hospital\\Hospital\\IntegrationAPI\\IntegrationAPI.csproj": {
+    "D:\\PSW\\psw_hospital\\Hospital\\IntegrationAPI\\IntegrationAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pavko\\OneDrive\\Documents\\GitHub\\psw_hospital\\Hospital\\IntegrationAPI\\IntegrationAPI.csproj",
+        "projectUniqueName": "D:\\PSW\\psw_hospital\\Hospital\\IntegrationAPI\\IntegrationAPI.csproj",
         "projectName": "IntegrationAPI",
-        "projectPath": "C:\\Users\\pavko\\OneDrive\\Documents\\GitHub\\psw_hospital\\Hospital\\IntegrationAPI\\IntegrationAPI.csproj",
-        "packagesPath": "C:\\Users\\pavko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pavko\\OneDrive\\Documents\\GitHub\\psw_hospital\\Hospital\\IntegrationAPI\\obj\\",
+        "projectPath": "D:\\PSW\\psw_hospital\\Hospital\\IntegrationAPI\\IntegrationAPI.csproj",
+        "packagesPath": "C:\\Users\\Sara\\.nuget\\packages\\",
+        "outputPath": "D:\\PSW\\psw_hospital\\Hospital\\IntegrationAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "D:\\install\\Microsoft Visual Studio\\2019\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\pavko\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Sara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -118,8 +118,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\pavko\\OneDrive\\Documents\\GitHub\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj": {
-                "projectPath": "C:\\Users\\pavko\\OneDrive\\Documents\\GitHub\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj"
+              "D:\\PSW\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj": {
+                "projectPath": "D:\\PSW\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj"
               }
             }
           }

@@ -5161,25 +5161,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pavko\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Sara\\.nuget\\packages\\": {},
+    "D:\\install\\Microsoft Visual Studio\\2019\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pavko\\OneDrive\\Documents\\GitHub\\psw_hospital\\Hospital\\Hospital library\\Hospital library.csproj",
+      "projectUniqueName": "D:\\PSW\\psw_hospital\\Hospital\\Hospital library\\Hospital library.csproj",
       "projectName": "Hospital library",
-      "projectPath": "C:\\Users\\pavko\\OneDrive\\Documents\\GitHub\\psw_hospital\\Hospital\\Hospital library\\Hospital library.csproj",
-      "packagesPath": "C:\\Users\\pavko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pavko\\OneDrive\\Documents\\GitHub\\psw_hospital\\Hospital\\Hospital library\\obj\\",
+      "projectPath": "D:\\PSW\\psw_hospital\\Hospital\\Hospital library\\Hospital library.csproj",
+      "packagesPath": "C:\\Users\\Sara\\.nuget\\packages\\",
+      "outputPath": "D:\\PSW\\psw_hospital\\Hospital\\Hospital library\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "D:\\install\\Microsoft Visual Studio\\2019\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\pavko\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Sara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
