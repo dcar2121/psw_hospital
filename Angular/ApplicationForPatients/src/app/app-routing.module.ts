@@ -6,9 +6,13 @@ const routes: Routes = [
 // {
 //   path: '',
 //   component: LandingPageComponent
-// }, 
-  {
-    
+// },
+{
+  path: '',
+  redirectTo: 'patient',
+  pathMatch: 'full',
+}, 
+  {  
     path: 'patient',
     component: HomepageLayoutComponent,
     children: [
