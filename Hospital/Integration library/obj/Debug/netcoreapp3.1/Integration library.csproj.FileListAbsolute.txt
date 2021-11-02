@@ -7,3 +7,16 @@ D:\PSW\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integra
 D:\PSW\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.csproj.CoreCompileInputs.cache
 D:\PSW\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.dll
 D:\PSW\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.pdb
+C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Integration library\bin\Debug\netcoreapp3.1\Integration library.deps.json
+C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Integration library\bin\Debug\netcoreapp3.1\Integration library.runtimeconfig.json
+C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Integration library\bin\Debug\netcoreapp3.1\Integration library.runtimeconfig.dev.json
+C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Integration library\bin\Debug\netcoreapp3.1\Integration library.dll
+C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Integration library\bin\Debug\netcoreapp3.1\Integration library.pdb
+C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.csproj.AssemblyReference.cache
+C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.AssemblyInfoInputs.cache
+C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.AssemblyInfo.cs
+C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.csproj.CoreCompileInputs.cache
+C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.dll
+C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.pdb
+C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.genruntimeconfig.cache

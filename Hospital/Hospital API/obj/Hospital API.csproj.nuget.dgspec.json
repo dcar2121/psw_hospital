@@ -1,25 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PSW\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj": {}
+    "C:\\Users\\pavko\\OneDrive\\Documents\\GitHub\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj": {}
   },
   "projects": {
-    "D:\\PSW\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj": {
+    "C:\\Users\\pavko\\OneDrive\\Documents\\GitHub\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PSW\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj",
+        "projectUniqueName": "C:\\Users\\pavko\\OneDrive\\Documents\\GitHub\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj",
         "projectName": "Hospital API",
-        "projectPath": "D:\\PSW\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj",
-        "packagesPath": "C:\\Users\\Sara\\.nuget\\packages\\",
-        "outputPath": "D:\\PSW\\psw_hospital\\Hospital\\Hospital API\\obj\\",
+        "projectPath": "C:\\Users\\pavko\\OneDrive\\Documents\\GitHub\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj",
+        "packagesPath": "C:\\Users\\pavko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pavko\\OneDrive\\Documents\\GitHub\\psw_hospital\\Hospital\\Hospital API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\install\\Microsoft Visual Studio\\2019\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Sara\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\pavko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -50,21 +50,21 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[5.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Analyzers": {
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[5.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[5.0.11, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[5.0.10, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
               "target": "Package",
