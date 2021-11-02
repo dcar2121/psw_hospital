@@ -9,6 +9,8 @@ import { IPharmacy } from "../pharmacy";
 
 export class PharmacyFeedbackComponent {
     title: string = "Pharmacy Feedback";
+    newFeedback: boolean = false;
+    buttonText: string = "Create new feedback";
     pharmacies: IPharmacy[] = [
         {
             pharmacyName: "Pharmacy1"
@@ -26,4 +28,13 @@ export class PharmacyFeedbackComponent {
             pharmacyName: "Pharmacy5"
         }
     ];
+
+    toggleCreateButton(): void { 
+        this.newFeedback = !this.newFeedback;
+        if(this.newFeedback){
+            this.buttonText = "Show all feedbacks";
+        } else {
+            this.buttonText = "Create new feedback";
+        }
+    }
 }
