@@ -1,3 +1,4 @@
 export interface IPharmacy {
-    pharmacyName: string;
+    pharmacyName: string,
+    pharmacyId: number
 }

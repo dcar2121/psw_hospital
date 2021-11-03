@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PSW\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj": {}
+    "C:\\Users\\bogda\\OneDrive\\Documents\\GitHub\\PSW\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj": {}
   },
   "projects": {
-    "D:\\PSW\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj": {
+    "C:\\Users\\bogda\\OneDrive\\Documents\\GitHub\\PSW\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PSW\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj",
+        "projectUniqueName": "C:\\Users\\bogda\\OneDrive\\Documents\\GitHub\\PSW\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj",
         "projectName": "Hospital API",
-        "projectPath": "D:\\PSW\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj",
-        "packagesPath": "C:\\Users\\Sara\\.nuget\\packages\\",
-        "outputPath": "D:\\PSW\\psw_hospital\\Hospital\\Hospital API\\obj\\",
+        "projectPath": "C:\\Users\\bogda\\OneDrive\\Documents\\GitHub\\PSW\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj",
+        "packagesPath": "C:\\Users\\bogda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bogda\\OneDrive\\Documents\\GitHub\\PSW\\psw_hospital\\Hospital\\Hospital API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\install\\Microsoft Visual Studio\\2019\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Sara\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\bogda\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

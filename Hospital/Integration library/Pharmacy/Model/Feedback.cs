@@ -8,7 +8,7 @@ namespace Integration_library.Pharmacy.Model
     {
         public int Id { get; set; }
         public string Content { get; set; }
-        public DateTime Date { get; set; }
-        public int PharmacyId { get; set; }
+        public string FeedbackDate { get; set; }
+        public string PharmacyName { get; set; }
     }
 }

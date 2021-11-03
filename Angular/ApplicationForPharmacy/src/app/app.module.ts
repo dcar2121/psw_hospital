@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 
@@ -7,6 +8,7 @@ import { HomePageComponent } from './home/homePage.component';
 import { HospitalRegistrationComponent } from './hospitalRegistration/hospitalRegistration.component';
 import { MedicationsComponent } from './medications/medications.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { SidebarComponent } from './sidebar/sidebar.component';
       { path: 'medications', component: MedicationsComponent },
       { path: '', redirectTo: 'home', pathMatch: 'full' },
       { path: '**', redirectTo: 'home', pathMatch: 'full' }
-    ])
+    ]),
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
