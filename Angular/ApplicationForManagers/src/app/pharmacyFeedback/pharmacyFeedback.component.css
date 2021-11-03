@@ -1,5 +1,5 @@
 .feedback{
-    margin-left: 350px;;
+    margin-left: 350px;
 }
 
 .btnCreate{
@@ -15,37 +15,3 @@
     height: 50px;
 }
 
-
-.card{
-    width: 900px;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-30%, -80%);
-}
-
-.card-header{
-    background-color: red; 
-    color: lightgray;
-    font-size: x-large;
-    opacity: 70%;
-}
-
-.card-body{
-    font-size: large;
-}
-
-.form-control{
-    width: 40rem; 
-    margin: 0 auto;
-}
-
-.btn{
-    background-color: red; 
-    color: lightgray;
-    font-size: x-large;
-    font-weight: bold;
-    opacity: 70%;
-}

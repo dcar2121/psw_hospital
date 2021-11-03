@@ -1,5 +1,4 @@
 import { Component } from "@angular/core";
-import { IPharmacy } from "../pharmacy";
 
 @Component({
     selector: 'pharmacyFeedback',
@@ -8,26 +7,8 @@ import { IPharmacy } from "../pharmacy";
 })
 
 export class PharmacyFeedbackComponent {
-    title: string = "Pharmacy Feedback";
     newFeedback: boolean = false;
     buttonText: string = "Create new feedback";
-    pharmacies: IPharmacy[] = [
-        {
-            pharmacyName: "Pharmacy1"
-        },
-        {
-            pharmacyName: "Pharmacy2"
-        },
-        {
-            pharmacyName: "Pharmacy3"
-        },
-        {
-            pharmacyName: "Pharmacy4"
-        },
-        {
-            pharmacyName: "Pharmacy5"
-        }
-    ];
 
     toggleCreateButton(): void { 
         this.newFeedback = !this.newFeedback;

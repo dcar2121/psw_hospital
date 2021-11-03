@@ -1,0 +1,24 @@
+<div class="card text-center">
+    <div class="card-header">
+        <b>{{title}}</b>
+    </div>
+    <div class="card-body">
+        <form>
+            <div class="form-group">
+                <label>Pharmacy:</label>
+                <select class="form-control" id="pharmacyName">
+                  <option *ngFor='let pharmacy of pharmacies'>
+                    {{pharmacy.pharmacyName}}
+                  </option>
+                </select>
+              </div><br/>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Feedback content:</label>
+                <textarea class="form-control" id="feedbackText" rows="5" placeholder="Feedback content..." ></textarea>
+              </div><br/>
+            <button type="submit" class="btn">
+                Submit
+            </button>
+          </form>
+    </div>
+</div>  

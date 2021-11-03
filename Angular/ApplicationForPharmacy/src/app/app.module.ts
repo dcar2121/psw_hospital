@@ -4,25 +4,24 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { HomePageComponent } from './home/homePage.component';
-import { PharmacyFeedbackComponent } from './pharmacyFeedback/pharmacyFeedback.component';
-import { PharmacyFeedbackFormComponent } from './pharmacyFeedbackForm/pharmacyFeedbackForm.component';
-import { PharmacyFeedbacksComponent } from './pharmacyFeedbacks/pharmacyFeedbacks.component';
+import { HospitalRegistrationComponent } from './hospitalRegistration/hospitalRegistration.component';
+import { MedicationsComponent } from './medications/medications.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
-    PharmacyFeedbackComponent,
+    HospitalRegistrationComponent,
     SidebarComponent,
-    PharmacyFeedbackFormComponent,
-    PharmacyFeedbacksComponent
+    MedicationsComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
-      { path: 'pharmacyFeedback', component: PharmacyFeedbackComponent },
       { path: 'home', component: HomePageComponent },
+      { path: 'hospitalRegistration', component: HospitalRegistrationComponent },
+      { path: 'medications', component: MedicationsComponent },
       { path: '', redirectTo: 'home', pathMatch: 'full' },
       { path: '**', redirectTo: 'home', pathMatch: 'full' }
     ])
