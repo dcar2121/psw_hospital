@@ -11,7 +11,7 @@ export class FeedbackService {
   constructor(private http: HttpClient) { }
 
   formFeedback: FeedbackModel= new FeedbackModel();
-  readonly baseUrl = 'https://localhost:44317/api/Feedbacks';
+  readonly baseUrl = "https://localhost:44317/api/Feedbacks";
 
   postLogin(){
     this.formFeedback.FeedbackDate = '03.11.2021.';

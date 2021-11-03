@@ -78,7 +78,6 @@ namespace IntegrationAPI.Controller
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPost]
-        [Route("pharmacy/getFeedbacks")]
         public async Task<ActionResult<Feedback>> PostFeedback(Feedback feedback)
         {
             _context.Feedbacks.Add(feedback);
