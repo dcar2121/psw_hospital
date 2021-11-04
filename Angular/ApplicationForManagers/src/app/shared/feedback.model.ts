@@ -1,6 +1,6 @@
 export class FeedbackModel{
-    Id: number = 0;
-    Content: string = '';
-    FeedbackDate: string = '';
-    PharmacyName: string = '';
+    id: number = 0;
+    content: string = '';
+    feedbackDate: string = '';
+    pharmacyName: string = '';
 }

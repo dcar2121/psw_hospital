@@ -1,4 +1,5 @@
-import { Component } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
+import { FeedbackService } from "../shared/feedback.service";
 
 @Component({
     selector: 'pharmacyFeedback',
@@ -6,7 +7,9 @@ import { Component } from "@angular/core";
     styleUrls: ['./pharmacyFeedback.component.css']
 })
 
-export class PharmacyFeedbackComponent {
+export class PharmacyFeedbackComponent{
+   
+    
     newFeedback: boolean = false;
     buttonText: string = "Create new feedback";
 

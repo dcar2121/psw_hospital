@@ -131,3 +131,4 @@ C:\Users\bogda\OneDrive\Documents\GitHub\PSW\psw_hospital\Hospital\Hospital API\
 C:\Users\bogda\OneDrive\Documents\GitHub\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.dll
 C:\Users\bogda\OneDrive\Documents\GitHub\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.pdb
 C:\Users\bogda\OneDrive\Documents\GitHub\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.genruntimeconfig.cache
+C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.csproj.AssemblyReference.cache

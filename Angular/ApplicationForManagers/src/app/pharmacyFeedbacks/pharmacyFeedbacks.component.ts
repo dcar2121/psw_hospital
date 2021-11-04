@@ -1,6 +1,7 @@
-import { Component } from "@angular/core";
-import { IPharmacyFeedback } from "../pharmacyFeedback";
+import { Component, OnInit } from "@angular/core";
 import { IPharmacyFeedbackResponse } from "../pharmacyFeedbackResponse";
+import { FeedbackModel } from "../shared/feedback.model";
+import { FeedbackService } from "../shared/feedback.service";
 
 @Component({
     selector: 'pharmacyFeedbacks',
@@ -8,21 +9,8 @@ import { IPharmacyFeedbackResponse } from "../pharmacyFeedbackResponse";
     styleUrls: ['./pharmacyFeedbacks.component.css']
 })
 
-export class PharmacyFeedbacksComponent {
-    feedbacks: IPharmacyFeedback[] = [
-        {
-            id: 1,
-            date: "11.11.2021.",
-            hospitalName: "Hospital1",
-            content: "The lone lamp post of the one-street town flickered, not quite dead but definitely on its way out. Suitcase by her side, she paid no heed to the light, the street or the town. A car was coming down the street and with her arm outstretched and thumb in the air, she had a plan."
-        },
-        {
-            id: 2,
-            date: "12.11.2021.",
-            hospitalName: "Hospital2",
-            content: "Don't be scared. The things out there that are unknown aren't scary in themselves. They are just unknown at the moment. Take the time to know them before you list them as scary. Then the world will be a much less scary place for you."
-        }
-    ];
+export class PharmacyFeedbacksComponent implements OnInit{
+    feedbacks: FeedbackModel[] =[];
     responses: IPharmacyFeedbackResponse[] = [
         {
             id: 1,
@@ -44,9 +32,13 @@ export class PharmacyFeedbacksComponent {
         }
     ];
     responseVisibility: boolean[] = [];
-
+    constructor(public service: FeedbackService) { 
+    }
 
     ngOnInit(): void {
+        this.service.getFeedbacks();
+        this.feedbacks = this.service.feedbackList;
+        console.log(this.feedbacks);
         this.responseVisibility.length = this.responses.length;
         for(let response of this.responseVisibility){
             response = false;

@@ -1,10 +1,9 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore.Migrations;
+﻿using Microsoft.EntityFrameworkCore.Migrations;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace Integration_library.Migrations
 {
-    public partial class feedbacks : Migration
+    public partial class newMigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -15,8 +14,8 @@ namespace Integration_library.Migrations
                     Id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     Content = table.Column<string>(type: "text", nullable: true),
-                    Date = table.Column<DateTime>(type: "timestamp without time zone", nullable: false),
-                    PharmacyId = table.Column<int>(type: "integer", nullable: false)
+                    FeedbackDate = table.Column<string>(type: "text", nullable: true),
+                    PharmacyName = table.Column<string>(type: "text", nullable: true)
                 },
                 constraints: table =>
                 {
