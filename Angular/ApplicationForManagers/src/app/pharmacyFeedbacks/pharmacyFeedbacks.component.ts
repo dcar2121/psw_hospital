@@ -43,6 +43,7 @@ export class PharmacyFeedbacksComponent implements OnInit{
         for(let response of this.responseVisibility){
             response = false;
         }
+        this.service.getFeedbackResponse();
     }
 
     changeVisibility(responseId: number): void {

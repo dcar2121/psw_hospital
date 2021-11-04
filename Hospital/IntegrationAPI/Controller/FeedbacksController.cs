@@ -32,10 +32,10 @@ namespace IntegrationAPI.Controller
 
         [HttpGet]
         [Route("pharmacy/getFeedbackResponse")]
-        public FeedbackResponse GetFeedbackResponse()
+        public String GetFeedbackResponse()
         {
             //izvucemo id feedbacka  koji stavimo u header ovog geta recimo i izvucemo hospital jer treba da bismo postavili njen api key (koji imamo u nansoj bazi ) u request
-            String url = "https://localhost:44377/api/FeedbackResponses"; // + id feedback-a
+            String url = "https://localhost:44377/api/FeedbackResponses/1"; // + id feedback-a
             var client = new RestClient(url);
             var request = new RestRequest();
 
@@ -43,7 +43,8 @@ namespace IntegrationAPI.Controller
 
             //dodati i zastitu sta ako nema responsa na taj feedback
             FeedbackResponse responses = JsonSerializer.Deserialize<FeedbackResponse>(response.Content.ToString());
-            return responses;
+            Console.WriteLine(response.Content.ToString());
+            return response.Content.ToString();
         }
 
         // GET: api/Feedbacks/5
