@@ -9,7 +9,7 @@
                 <label>Pharmacy:</label>
                 <select class="form-control" id="pharmacyName"  name="pharmacyName" #Name="ngModel" [(ngModel)] = "service.formFeedback.pharmacyName" >
                   <option *ngFor='let pharmacy of pharmacies' >
-                    {{pharmacy.pharmacyName}}
+                    {{pharmacy}}
                   </option>
                 </select>
               </div><br/>

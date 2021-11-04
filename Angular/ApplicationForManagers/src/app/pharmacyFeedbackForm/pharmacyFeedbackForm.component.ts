@@ -2,6 +2,7 @@ import { Component, OnInit } from "@angular/core";
 import { NgForm } from "@angular/forms";
 import { IPharmacy } from "../pharmacy";
 import { FeedbackService } from "../shared/feedback.service";
+import { PharmacyService } from "../shared/pharmacy.service";
 
 @Component({
     selector: 'pharmacyFeedbackForm',
@@ -10,33 +11,15 @@ import { FeedbackService } from "../shared/feedback.service";
 })
 
 export class PharmacyFeedbackFormComponent  implements OnInit{
-    constructor(public service: FeedbackService) { }
+    constructor(public service: FeedbackService ) { }
 
     title: string = "Pharmacy Feedback";
-    pharmacies: IPharmacy[] = [
-        {
-            pharmacyName: "Pharmacy1",
-            pharmacyId: 0
-        },
-        {
-            pharmacyName: "Pharmacy2",
-            pharmacyId: 1
-        },
-        {
-            pharmacyName: "Pharmacy3",
-            pharmacyId: 3
-        },
-        {
-            pharmacyName: "Pharmacy4",
-            pharmacyId: 4
-        },
-        {
-            pharmacyName: "Pharmacy5",
-            pharmacyId: 5
-        }
-    ];
+    pharmacies: string[] = [];
 
-    ngOnInit(): void {}
+    ngOnInit(): void  {
+        this.service.getPharmacyNames();
+        this.pharmacies = this.service.pharmacyNames;
+    }   
 
     onSubmit(form: NgForm){
     this.service.postLogin().subscribe(

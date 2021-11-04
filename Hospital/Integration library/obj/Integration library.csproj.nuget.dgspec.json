@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Milica\\Desktop\\hospital\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj": {}
+    "C:\\Users\\bogda\\OneDrive\\Documents\\GitHub\\PSWHospital\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Milica\\Desktop\\hospital\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj": {
+    "C:\\Users\\bogda\\OneDrive\\Documents\\GitHub\\PSWHospital\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Milica\\Desktop\\hospital\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj",
+        "projectUniqueName": "C:\\Users\\bogda\\OneDrive\\Documents\\GitHub\\PSWHospital\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj",
         "projectName": "Integration library",
-        "projectPath": "C:\\Users\\Milica\\Desktop\\hospital\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj",
-        "packagesPath": "C:\\Users\\Milica\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Milica\\Desktop\\hospital\\psw_hospital\\Hospital\\Integration library\\obj\\",
+        "projectPath": "C:\\Users\\bogda\\OneDrive\\Documents\\GitHub\\PSWHospital\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj",
+        "packagesPath": "C:\\Users\\bogda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bogda\\OneDrive\\Documents\\GitHub\\PSWHospital\\psw_hospital\\Hospital\\Integration library\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Milica\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bogda\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -86,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

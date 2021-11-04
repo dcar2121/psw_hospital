@@ -11,9 +11,11 @@ export class FeedbackService{
   formFeedback: FeedbackModel= new FeedbackModel();
   readonly baseUrl = "https://localhost:44317/api/Feedbacks";
   readonly baserUrlResponses = "https://localhost:44317/api/Feedbacks/pharmacy/getFeedbackResponse";
+  readonly basePharmacy = "https://localhost:44317/api/Feedbacks/pharmacyNames";
   feedbackList: FeedbackModel[] = [];
   feedbackResponses : FeedbackResponseModel[] = [];
   feedbackResponse: FeedbackResponseModel = new FeedbackResponseModel();
+  pharmacyNames: string[] = [];
 
   constructor(private http: HttpClient) { }
 
@@ -44,5 +46,11 @@ export class FeedbackService{
       }
     }
   }
+
+  getPharmacyNames(){
+    this.http.get(this.basePharmacy)
+     .toPromise()
+     .then(res => this.pharmacyNames = res as string[]);
+   }
 
 }

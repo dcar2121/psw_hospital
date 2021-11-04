@@ -9,7 +9,7 @@ export class HospitalRegistrationService {
 
     formHospitalRegistration: HospitalRegistrationModel = new HospitalRegistrationModel();
     readonly baseUrl = "https://localhost:44377/registerHospital";
-
+    readonly baseUrl2 = "https://localhost:44317/api/Feedbacks/registerPharmacy";
     constructor(private http: HttpClient) { }
 
     postLogin(){
@@ -18,4 +18,7 @@ export class HospitalRegistrationService {
         return this.http.post(this.baseUrl,this.formHospitalRegistration);
     }
 
+    registerPharmacy(){
+      return this.http.post(this.baseUrl2, this.formHospitalRegistration.hospitalName);
+    }
   }

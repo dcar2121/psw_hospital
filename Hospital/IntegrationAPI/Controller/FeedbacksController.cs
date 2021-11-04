@@ -29,7 +29,28 @@ namespace IntegrationAPI.Controller
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Feedback>>> GetFeedbacks()
         {
+
             return await _context.Feedbacks.ToListAsync();
+        }
+
+        [HttpGet]
+        [Route("pharmacyNames")]
+        public List<string> getPharmacyNames()
+        {
+            List<string> names = new List<string>();
+            _pharmacycontext.Pharmacies.ToList().ForEach(pharmacy => names.Add(pharmacy.PharmacyName));
+            return names;
+        }
+
+        [HttpPost]
+        [Route("registerPharmacy")]
+        public IActionResult AddHospital(string apiKey)
+        {
+            Random rnd = new Random();
+            string pharmacyName = "pharmacy" + rnd.Next(500);
+            _pharmacycontext.Pharmacies.Add(new Pharmacy(pharmacyName, "newPharmacyKey"));
+            _pharmacycontext.SaveChanges();
+            return Ok();
         }
 
         [HttpGet]
@@ -72,6 +93,8 @@ namespace IntegrationAPI.Controller
 
             String hospitalApiKey = getPharmacyApiKey(feedback.PharmacyName);
             request.AddHeader("ApiKey", hospitalApiKey);
+
+            Response.Headers.Add("ApiKey", hospitalApiKey);
 
             var response = client.Post(request);
             return CreatedAtAction("GetFeedback", new { id = feedback.Id }, feedback);

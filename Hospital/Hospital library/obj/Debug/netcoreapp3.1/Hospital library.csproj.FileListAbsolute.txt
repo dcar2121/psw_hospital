@@ -35,3 +35,12 @@ C:\Users\Milica\Desktop\hospital\psw_hospital\Hospital\Hospital library\obj\Debu
 C:\Users\Milica\Desktop\hospital\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital library.csproj.CoreCompileInputs.cache
 C:\Users\Milica\Desktop\hospital\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital library.dll
 C:\Users\Milica\Desktop\hospital\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital library.pdb
+C:\Users\bogda\OneDrive\Documents\GitHub\PSWHospital\psw_hospital\Hospital\Hospital library\bin\Debug\netcoreapp3.1\Hospital library.deps.json
+C:\Users\bogda\OneDrive\Documents\GitHub\PSWHospital\psw_hospital\Hospital\Hospital library\bin\Debug\netcoreapp3.1\Hospital library.dll
+C:\Users\bogda\OneDrive\Documents\GitHub\PSWHospital\psw_hospital\Hospital\Hospital library\bin\Debug\netcoreapp3.1\Hospital library.pdb
+C:\Users\bogda\OneDrive\Documents\GitHub\PSWHospital\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital library.csprojAssemblyReference.cache
+C:\Users\bogda\OneDrive\Documents\GitHub\PSWHospital\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital library.AssemblyInfoInputs.cache
+C:\Users\bogda\OneDrive\Documents\GitHub\PSWHospital\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital library.AssemblyInfo.cs
+C:\Users\bogda\OneDrive\Documents\GitHub\PSWHospital\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital library.csproj.CoreCompileInputs.cache
+C:\Users\bogda\OneDrive\Documents\GitHub\PSWHospital\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital library.dll
+C:\Users\bogda\OneDrive\Documents\GitHub\PSWHospital\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital library.pdb

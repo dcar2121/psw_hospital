@@ -5361,19 +5361,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Milica\\.nuget\\packages\\": {}
+    "C:\\Users\\bogda\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Milica\\Desktop\\hospital\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj",
+      "projectUniqueName": "C:\\Users\\bogda\\OneDrive\\Documents\\GitHub\\PSWHospital\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj",
       "projectName": "Hospital API",
-      "projectPath": "C:\\Users\\Milica\\Desktop\\hospital\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj",
-      "packagesPath": "C:\\Users\\Milica\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Milica\\Desktop\\hospital\\psw_hospital\\Hospital\\Hospital API\\obj\\",
+      "projectPath": "C:\\Users\\bogda\\OneDrive\\Documents\\GitHub\\PSWHospital\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj",
+      "packagesPath": "C:\\Users\\bogda\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bogda\\OneDrive\\Documents\\GitHub\\PSWHospital\\psw_hospital\\Hospital\\Hospital API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Milica\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bogda\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5444,7 +5448,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

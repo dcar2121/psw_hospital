@@ -1,6 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 import { NgForm } from "@angular/forms";
-import { HospitalRegistrationService } from "../shared/hospitalRegistration.service";
+import { HospitalRegistrationService } from "../shared/HospitalRegistration.service";
+
 
 @Component({
     selector: 'hospitalRegistration',
@@ -20,10 +21,16 @@ export class HospitalRegistrationComponent implements OnInit{
     onSubmit(form: NgForm){
         this.service.postLogin().subscribe(
           (res) => {
-            console.log("Successfuly registered to database");
+            console.log("Successfuly registered hospital to database");
+            
           }
-        )
-        }
+        ),
+        this.service.registerPharmacy().subscribe(
+            (res) => {
+                console.log("Successfuly registered pharmacy to database");
+            }
+        );
+    }
 
     title: string = "Hospital Registration";
     cities: any[] = [
