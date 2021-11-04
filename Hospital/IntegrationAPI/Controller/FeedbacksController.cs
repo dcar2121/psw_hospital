@@ -17,10 +17,12 @@ namespace IntegrationAPI.Controller
     public class FeedbacksController : ControllerBase
     {
         private readonly DatabaseContext _context;
+        private readonly PharmacyDbContext _pharmacycontext;
 
-        public FeedbacksController(DatabaseContext context)
+        public FeedbacksController(DatabaseContext context,PharmacyDbContext c)
         {
             _context = context;
+            _pharmacycontext = c;
         }
 
         // GET: api/Feedbacks
@@ -34,30 +36,12 @@ namespace IntegrationAPI.Controller
         [Route("pharmacy/getFeedbackResponse")]
         public String GetFeedbackResponses()
         {
-            //izvucemo id feedbacka  koji stavimo u header ovog geta recimo i izvucemo hospital jer treba da bismo postavili njen api key (koji imamo u nansoj bazi ) u request
-            String url = "https://localhost:44377/api/FeedbackResponses"; // + id feedback-a
+
+            String url = "https://localhost:44377/api/FeedbackResponses";
             var client = new RestClient(url);
             var request = new RestRequest();
 
             var response = client.Get(request);
-
-            //dodati i zastitu sta ako nema responsa na taj feedback
-            //FeedbackResponse responses = JsonSerializer.Deserialize<FeedbackResponse>(response.Content.ToString());
-            return response.Content.ToString();
-        }
-
-        [HttpGet]
-        [Route("pharmacy/getFeedbackResponse/{id}")]
-        public String GetFeedbackResponse(int id)
-        {
-            String url = "https://localhost:44377/api/FeedbackResponses/" + id; // + id feedback-a
-            var client = new RestClient(url);
-            var request = new RestRequest();
-
-            var response = client.Get(request);
-
-            //dodati i zastitu sta ako nema responsa na taj feedback
-            FeedbackResponse responses = JsonSerializer.Deserialize<FeedbackResponse>(response.Content.ToString());
             return response.Content.ToString();
         }
 
@@ -75,41 +59,6 @@ namespace IntegrationAPI.Controller
             return feedback;
         }
 
-        // PUT: api/Feedbacks/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for
-        // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutFeedback(int id, Feedback feedback)
-        {
-            if (id != feedback.Id)
-            {
-                return BadRequest();
-            }
-
-            _context.Entry(feedback).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!FeedbackExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return NoContent();
-        }
-
-        // POST: api/Feedbacks
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for
-        // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPost]
         public async Task<ActionResult<Feedback>> PostFeedback(Feedback feedback)
         {
@@ -121,11 +70,28 @@ namespace IntegrationAPI.Controller
             var request = new RestRequest();
             request.AddJsonBody(feedback);
 
+            String hospitalApiKey = getPharmacyApiKey(feedback.PharmacyName);
+            request.AddHeader("ApiKey", hospitalApiKey);
+
             var response = client.Post(request);
-
-
             return CreatedAtAction("GetFeedback", new { id = feedback.Id }, feedback);
         }
+
+        private String getPharmacyApiKey(String pharmacyName)
+        {
+            List<Pharmacy> result = new List<Pharmacy>();
+            _pharmacycontext.Pharmacies.ToList().ForEach
+                (pharmacy => result.Add(pharmacy));
+
+            foreach(Pharmacy p in result){
+                if (p.PharmacyName.Equals(pharmacyName))
+                    return p.ApiKey;
+            }
+
+            return "Apoteka ne postoji u bazi";
+        }
+
+
 
         // DELETE: api/Feedbacks/5
         [HttpDelete("{id}")]
