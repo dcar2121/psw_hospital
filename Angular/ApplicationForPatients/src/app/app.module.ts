@@ -1,4 +1,6 @@
+import { HttpClient, HttpClientModule, HttpHandler } from '@angular/common/http';
 import { NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -16,10 +18,14 @@ import { HomepageLayoutModule } from './homepage/homepage-layout/homepage-layout
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
     HomepageLayoutModule
   ],
-  providers: [],
+  providers: [ ],
   bootstrap: [AppComponent]
+
 })
 export class AppModule { }
