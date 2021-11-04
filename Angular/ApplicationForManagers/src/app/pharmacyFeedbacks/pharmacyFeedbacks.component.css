@@ -18,6 +18,13 @@ h1{
     opacity: 70%;
 }
 
+.card-header1{
+    background-color: rgb(0, 0, 0); 
+    color: lightgray;
+    font-size: x-large;
+    opacity: 70%;
+}
+
 .card-body{
     font-size: large;
     text-align: left;

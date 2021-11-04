@@ -1,7 +1,7 @@
 import { Component, OnInit } from "@angular/core";
-import { IPharmacyFeedbackResponse } from "../pharmacyFeedbackResponse";
 import { FeedbackModel } from "../shared/feedback.model";
 import { FeedbackService } from "../shared/feedback.service";
+import { FeedbackResponseModel } from "../shared/feedbackResponse.model";
 
 @Component({
     selector: 'pharmacyFeedbacks',
@@ -11,42 +11,31 @@ import { FeedbackService } from "../shared/feedback.service";
 
 export class PharmacyFeedbacksComponent implements OnInit{
     feedbacks: FeedbackModel[] =[];
-    responses: IPharmacyFeedbackResponse[] = [
-        {
-            id: 1,
-            feedbackId: 1,
-            date: "12.11.2021.",
-            content: "We will fix it!"
-        },
-        {
-            id: 2,
-            feedbackId: 1,
-            date: "12.11.2021.",
-            content: "Deal!"
-        },
-        {
-            id: 3,
-            feedbackId: 1,
-            date: "12.11.2021.",
-            content: "We will fix it!"
-        }
-    ];
+    responses: FeedbackResponseModel[] = [];
     responseVisibility: boolean[] = [];
+    response: FeedbackResponseModel = new FeedbackResponseModel();
     constructor(public service: FeedbackService) { 
     }
 
     ngOnInit(): void {
         this.service.getFeedbacks();
         this.feedbacks = this.service.feedbackList;
-        console.log(this.feedbacks);
-        this.responseVisibility.length = this.responses.length;
+        this.responseVisibility.length = this.feedbacks.length;
         for(let response of this.responseVisibility){
             response = false;
         }
-        this.service.getFeedbackResponse();
+        this.service.getFeedbackResponses();
+        this.responses = this.service.feedbackResponses;
     }
 
-    changeVisibility(responseId: number): void {
-        this.responseVisibility[responseId-1] = !this.responseVisibility[responseId-1];
+    changeVisibility(feedbackId: number, responseId:number): void {
+        this.responseVisibility[feedbackId-1] = !this.responseVisibility[feedbackId-1];
+        this.showResponse(responseId);
+    }
+
+    showResponse(responseId: number): void {
+        this.service.getFeedbackResponse(responseId);
+        this.response = this.service.feedbackResponse;
+        console.log(this.response);
     }
 }

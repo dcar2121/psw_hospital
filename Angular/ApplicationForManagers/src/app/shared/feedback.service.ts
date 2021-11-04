@@ -12,7 +12,8 @@ export class FeedbackService{
   readonly baseUrl = "https://localhost:44317/api/Feedbacks";
   readonly baserUrlResponses = "https://localhost:44317/api/Feedbacks/pharmacy/getFeedbackResponse";
   feedbackList: FeedbackModel[] = [];
-  feedbackResponse : FeedbackResponseModel = new FeedbackResponseModel();
+  feedbackResponses : FeedbackResponseModel[] = [];
+  feedbackResponse: FeedbackResponseModel = new FeedbackResponseModel();
 
   constructor(private http: HttpClient) { }
 
@@ -28,11 +29,20 @@ export class FeedbackService{
     .then(res => this.feedbackList = res as FeedbackModel[]);
   }
 
-  getFeedbackResponse(){
+  getFeedbackResponses(){
     this.http.get(this.baserUrlResponses)
      .toPromise()
-     .then(res => this.feedbackResponse = res as FeedbackResponseModel);
-     console.log(this.feedbackResponse);
+     .then(res => this.feedbackResponses = res as FeedbackResponseModel[]);
+     console.log(this.feedbackResponses);
    }
+
+  getFeedbackResponse(responseId: number) {
+    var res = new FeedbackResponseModel();
+    for(var response of this.feedbackResponses) {
+      if(response.id == responseId){
+        this.feedbackResponse = response;
+      }
+    }
+  }
 
 }

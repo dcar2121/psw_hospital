@@ -11,7 +11,6 @@ D:\PSW\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital l
 C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Hospital library\bin\Debug\netcoreapp3.1\Hospital library.deps.json
 C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Hospital library\bin\Debug\netcoreapp3.1\Hospital library.dll
 C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Hospital library\bin\Debug\netcoreapp3.1\Hospital library.pdb
-C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital library.csproj.AssemblyReference.cache
 C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital library.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital library.AssemblyInfoInputs.cache
 C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital library.AssemblyInfo.cs
