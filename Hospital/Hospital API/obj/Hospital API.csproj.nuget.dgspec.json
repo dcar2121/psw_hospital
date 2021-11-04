@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nikol\\Documents\\FTN\\Projektovanje_softvera\\Projekat\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj": {}
+    "D:\\FAKS\\IV godina\\7. semestar\\PSW\\FIRMA 6 - BOLNICA\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nikol\\Documents\\FTN\\Projektovanje_softvera\\Projekat\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj": {
+    "D:\\FAKS\\IV godina\\7. semestar\\PSW\\FIRMA 6 - BOLNICA\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nikol\\Documents\\FTN\\Projektovanje_softvera\\Projekat\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj",
+        "projectUniqueName": "D:\\FAKS\\IV godina\\7. semestar\\PSW\\FIRMA 6 - BOLNICA\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj",
         "projectName": "Hospital API",
-        "projectPath": "C:\\Users\\nikol\\Documents\\FTN\\Projektovanje_softvera\\Projekat\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj",
-        "packagesPath": "C:\\Users\\nikol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nikol\\Documents\\FTN\\Projektovanje_softvera\\Projekat\\psw_hospital\\Hospital\\Hospital API\\obj\\",
+        "projectPath": "D:\\FAKS\\IV godina\\7. semestar\\PSW\\FIRMA 6 - BOLNICA\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj",
+        "packagesPath": "C:\\Users\\Beric\\.nuget\\packages\\",
+        "outputPath": "D:\\FAKS\\IV godina\\7. semestar\\PSW\\FIRMA 6 - BOLNICA\\psw_hospital\\Hospital\\Hospital API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nikol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Beric\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\nikol\\Documents\\FTN\\Projektovanje_softvera\\Projekat\\psw_hospital\\Hospital\\Hospital library\\Hospital library.csproj": {
-                "projectPath": "C:\\Users\\nikol\\Documents\\FTN\\Projektovanje_softvera\\Projekat\\psw_hospital\\Hospital\\Hospital library\\Hospital library.csproj"
+              "D:\\FAKS\\IV godina\\7. semestar\\PSW\\FIRMA 6 - BOLNICA\\psw_hospital\\Hospital\\Hospital library\\Hospital library.csproj": {
+                "projectPath": "D:\\FAKS\\IV godina\\7. semestar\\PSW\\FIRMA 6 - BOLNICA\\psw_hospital\\Hospital\\Hospital library\\Hospital library.csproj"
               }
             }
           }
@@ -97,6 +97,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.19, 3.1.19]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -105,21 +111,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\nikol\\Documents\\FTN\\Projektovanje_softvera\\Projekat\\psw_hospital\\Hospital\\Hospital library\\Hospital library.csproj": {
+    "D:\\FAKS\\IV godina\\7. semestar\\PSW\\FIRMA 6 - BOLNICA\\psw_hospital\\Hospital\\Hospital library\\Hospital library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nikol\\Documents\\FTN\\Projektovanje_softvera\\Projekat\\psw_hospital\\Hospital\\Hospital library\\Hospital library.csproj",
+        "projectUniqueName": "D:\\FAKS\\IV godina\\7. semestar\\PSW\\FIRMA 6 - BOLNICA\\psw_hospital\\Hospital\\Hospital library\\Hospital library.csproj",
         "projectName": "Hospital library",
-        "projectPath": "C:\\Users\\nikol\\Documents\\FTN\\Projektovanje_softvera\\Projekat\\psw_hospital\\Hospital\\Hospital library\\Hospital library.csproj",
-        "packagesPath": "C:\\Users\\nikol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nikol\\Documents\\FTN\\Projektovanje_softvera\\Projekat\\psw_hospital\\Hospital\\Hospital library\\obj\\",
+        "projectPath": "D:\\FAKS\\IV godina\\7. semestar\\PSW\\FIRMA 6 - BOLNICA\\psw_hospital\\Hospital\\Hospital library\\Hospital library.csproj",
+        "packagesPath": "C:\\Users\\Beric\\.nuget\\packages\\",
+        "outputPath": "D:\\FAKS\\IV godina\\7. semestar\\PSW\\FIRMA 6 - BOLNICA\\psw_hospital\\Hospital\\Hospital library\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nikol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Beric\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -159,7 +165,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -18,3 +18,13 @@ C:\Users\nikol\Documents\FTN\Projektovanje_softvera\Projekat\psw_hospital\Hospit
 C:\Users\nikol\Documents\FTN\Projektovanje_softvera\Projekat\psw_hospital\Hospital\Hospital library\bin\Debug\netcoreapp3.1\Hospital library.deps.json
 C:\Users\nikol\Documents\FTN\Projektovanje_softvera\Projekat\psw_hospital\Hospital\Hospital library\bin\Debug\netcoreapp3.1\Hospital library.dll
 C:\Users\nikol\Documents\FTN\Projektovanje_softvera\Projekat\psw_hospital\Hospital\Hospital library\bin\Debug\netcoreapp3.1\Hospital library.pdb
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital library\bin\Debug\netcoreapp3.1\Hospital library.deps.json
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital library\bin\Debug\netcoreapp3.1\Hospital library.dll
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital library\bin\Debug\netcoreapp3.1\Hospital library.pdb
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital library.csprojAssemblyReference.cache
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital library.GeneratedMSBuildEditorConfig.editorconfig
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital library.AssemblyInfoInputs.cache
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital library.AssemblyInfo.cs
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital library.csproj.CoreCompileInputs.cache
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital library.dll
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital library.pdb
