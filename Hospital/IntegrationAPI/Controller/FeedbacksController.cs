@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Integration_library.Pharmacy.Model;
+using RestSharp;
+using System.Text.Json;
 
 namespace IntegrationAPI.Controller
 {
@@ -26,6 +28,22 @@ namespace IntegrationAPI.Controller
         public async Task<ActionResult<IEnumerable<Feedback>>> GetFeedbacks()
         {
             return await _context.Feedbacks.ToListAsync();
+        }
+
+        [HttpGet]
+        [Route("pharmacy/getFeedbackResponse")]
+        public FeedbackResponse GetFeedbackResponse()
+        {
+            //izvucemo id feedbacka  koji stavimo u header ovog geta recimo i izvucemo hospital jer treba da bismo postavili njen api key (koji imamo u nansoj bazi ) u request
+            String url = "https://localhost:44377/api/FeedbackResponses"; // + id feedback-a
+            var client = new RestClient(url);
+            var request = new RestRequest();
+
+            var response = client.Get(request);
+
+            //dodati i zastitu sta ako nema responsa na taj feedback
+            FeedbackResponse responses = JsonSerializer.Deserialize<FeedbackResponse>(response.Content.ToString());
+            return responses;
         }
 
         // GET: api/Feedbacks/5
@@ -82,6 +100,14 @@ namespace IntegrationAPI.Controller
         {
             _context.Feedbacks.Add(feedback);
             await _context.SaveChangesAsync();
+
+            String url = "https://localhost:44377/api/Feedbacks";
+            var client = new RestClient(url);
+            var request = new RestRequest();
+            request.AddJsonBody(feedback);
+
+            var response = client.Post(request);
+
 
             return CreatedAtAction("GetFeedback", new { id = feedback.Id }, feedback);
         }

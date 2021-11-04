@@ -36,3 +36,15 @@ C:\Users\bogda\OneDrive\Documents\GitHub\PSW\psw_hospital\Hospital\Integration l
 C:\Users\bogda\OneDrive\Documents\GitHub\PSW\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.dll
 C:\Users\bogda\OneDrive\Documents\GitHub\PSW\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.pdb
 C:\Users\bogda\OneDrive\Documents\GitHub\PSW\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.genruntimeconfig.cache
+C:\Users\Milica\Desktop\hospital\psw_hospital\Hospital\Integration library\bin\Debug\netcoreapp3.1\Integration library.deps.json
+C:\Users\Milica\Desktop\hospital\psw_hospital\Hospital\Integration library\bin\Debug\netcoreapp3.1\Integration library.runtimeconfig.json
+C:\Users\Milica\Desktop\hospital\psw_hospital\Hospital\Integration library\bin\Debug\netcoreapp3.1\Integration library.runtimeconfig.dev.json
+C:\Users\Milica\Desktop\hospital\psw_hospital\Hospital\Integration library\bin\Debug\netcoreapp3.1\Integration library.dll
+C:\Users\Milica\Desktop\hospital\psw_hospital\Hospital\Integration library\bin\Debug\netcoreapp3.1\Integration library.pdb
+C:\Users\Milica\Desktop\hospital\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.csprojAssemblyReference.cache
+C:\Users\Milica\Desktop\hospital\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.AssemblyInfoInputs.cache
+C:\Users\Milica\Desktop\hospital\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.AssemblyInfo.cs
+C:\Users\Milica\Desktop\hospital\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.csproj.CoreCompileInputs.cache
+C:\Users\Milica\Desktop\hospital\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.dll
+C:\Users\Milica\Desktop\hospital\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.pdb
+C:\Users\Milica\Desktop\hospital\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.genruntimeconfig.cache

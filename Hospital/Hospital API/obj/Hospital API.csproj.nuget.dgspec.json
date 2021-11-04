@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bogda\\OneDrive\\Documents\\GitHub\\PSW\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj": {}
+    "C:\\Users\\Milica\\Desktop\\hospital\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bogda\\OneDrive\\Documents\\GitHub\\PSW\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj": {
+    "C:\\Users\\Milica\\Desktop\\hospital\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bogda\\OneDrive\\Documents\\GitHub\\PSW\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj",
+        "projectUniqueName": "C:\\Users\\Milica\\Desktop\\hospital\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj",
         "projectName": "Hospital API",
-        "projectPath": "C:\\Users\\bogda\\OneDrive\\Documents\\GitHub\\PSW\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj",
-        "packagesPath": "C:\\Users\\bogda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bogda\\OneDrive\\Documents\\GitHub\\PSW\\psw_hospital\\Hospital\\Hospital API\\obj\\",
+        "projectPath": "C:\\Users\\Milica\\Desktop\\hospital\\psw_hospital\\Hospital\\Hospital API\\Hospital API.csproj",
+        "packagesPath": "C:\\Users\\Milica\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Milica\\Desktop\\hospital\\psw_hospital\\Hospital\\Hospital API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\bogda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Milica\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -88,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
