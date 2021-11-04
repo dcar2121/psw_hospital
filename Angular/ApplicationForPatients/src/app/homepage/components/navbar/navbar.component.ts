@@ -8,7 +8,7 @@ declare interface RouteInfo {
 }
 
 export const ROUTES: RouteInfo[] = [
-  { path: '/dashboard', title: 'Dashboard',  icon: 'pe-7s-graph', class: '' },
+  { path: '/patient/givefeedback', title: 'Feedback',  icon: 'pe-7s-graph', class: '' },
   { path: '/user', title: 'User Profile',  icon:'pe-7s-user', class: '' },
   { path: '/table', title: 'Table List',  icon:'pe-7s-note2', class: '' },
   { path: '/typography', title: 'Typography',  icon:'pe-7s-news-paper', class: '' },
@@ -26,16 +26,18 @@ export const ROUTES: RouteInfo[] = [
 
 export class NavbarComponent implements OnInit{
     private listTitles: any[];
-    location: Location;
+    //location: Location;
     private toggleButton: any;
     private sidebarVisible: boolean;
+    menuItems: RouteInfo[];
 
-    constructor(location: Location,  private element: ElementRef) {
-      this.location = location;
+    constructor(private element: ElementRef) {
+     
           this.sidebarVisible = false;
     }
 
     ngOnInit(){
+      this.menuItems = ROUTES.filter(menuItem => menuItem);
       this.listTitles = ROUTES.filter(listTitle => listTitle);
       const navbar: HTMLElement = this.element.nativeElement;
       this.toggleButton = navbar.getElementsByClassName('navbar-toggle')[0];

@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PSW\\psw_hospital\\Hospital\\IntegrationAPI\\IntegrationAPI.csproj": {}
+    "C:\\Users\\nikol\\Documents\\FTN\\Projektovanje_softvera\\Projekat\\psw_hospital\\Hospital\\IntegrationAPI\\IntegrationAPI.csproj": {}
   },
   "projects": {
-    "D:\\PSW\\psw_hospital\\Hospital\\IntegrationAPI\\IntegrationAPI.csproj": {
+    "C:\\Users\\nikol\\Documents\\FTN\\Projektovanje_softvera\\Projekat\\psw_hospital\\Hospital\\IntegrationAPI\\IntegrationAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PSW\\psw_hospital\\Hospital\\IntegrationAPI\\IntegrationAPI.csproj",
+        "projectUniqueName": "C:\\Users\\nikol\\Documents\\FTN\\Projektovanje_softvera\\Projekat\\psw_hospital\\Hospital\\IntegrationAPI\\IntegrationAPI.csproj",
         "projectName": "IntegrationAPI",
-        "projectPath": "D:\\PSW\\psw_hospital\\Hospital\\IntegrationAPI\\IntegrationAPI.csproj",
-        "packagesPath": "C:\\Users\\Sara\\.nuget\\packages\\",
-        "outputPath": "D:\\PSW\\psw_hospital\\Hospital\\IntegrationAPI\\obj\\",
+        "projectPath": "C:\\Users\\nikol\\Documents\\FTN\\Projektovanje_softvera\\Projekat\\psw_hospital\\Hospital\\IntegrationAPI\\IntegrationAPI.csproj",
+        "packagesPath": "C:\\Users\\nikol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nikol\\Documents\\FTN\\Projektovanje_softvera\\Projekat\\psw_hospital\\Hospital\\IntegrationAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\install\\Microsoft Visual Studio\\2019\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Sara\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\nikol\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

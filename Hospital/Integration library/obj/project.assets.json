@@ -8,24 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Sara\\.nuget\\packages\\": {},
-    "D:\\install\\Microsoft Visual Studio\\2019\\Shared\\NuGetPackages": {}
+    "C:\\Users\\nikol\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PSW\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj",
+      "projectUniqueName": "C:\\Users\\nikol\\Documents\\FTN\\Projektovanje_softvera\\Projekat\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj",
       "projectName": "Integration library",
-      "projectPath": "D:\\PSW\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj",
-      "packagesPath": "C:\\Users\\Sara\\.nuget\\packages\\",
-      "outputPath": "D:\\PSW\\psw_hospital\\Hospital\\Integration library\\obj\\",
+      "projectPath": "C:\\Users\\nikol\\Documents\\FTN\\Projektovanje_softvera\\Projekat\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj",
+      "packagesPath": "C:\\Users\\nikol\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nikol\\Documents\\FTN\\Projektovanje_softvera\\Projekat\\psw_hospital\\Hospital\\Integration library\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\install\\Microsoft Visual Studio\\2019\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Sara\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\nikol\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
