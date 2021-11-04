@@ -1,13 +1,49 @@
 <div class="main-content">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="card">
-                    <div class="header">
-                        <h4 class="title">Leave a feedback</h4>
-                        <p class="category">Tell us what you think about us</p>
-                    </div>
-                    <div class="content">
+    <div class="row">
+  
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="title">Leave a feedback</h2>
+            <p class="category">Tell us what you think about us</p>
+          </div>
+          <div class="card-body">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group" >
+                                    <div style="text-align:center">
+                                        <label for="text">Your opinion</label>
+                                        <input width="width:5000px" height="height: 500px" type="text" class="form-control" id="text"
+                                            placeholder="Enter text here"
+                                            required
+                                            [(ngModel)]="leaveFeedback.text" name="text" #name="ngModel">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div >
+                                <div class="form-group">
+                                    <div style="text-align:center">
+                                        <star-rating [value]= "value" 
+                                                     [totalstars]="totalstars" 
+                                                     [checkedcolor]="checkedcolor" 
+                                                     [uncheckedcolor]="uncheckedcolor" 
+                                                     [size]="size" 
+                                                     [readonly]="readonly" 
+                                                     (rate)="onRate($event)"></star-rating>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>     
+                           
+                        <div>
+                            <button (click) = "addNewFeedback()" class="btn btn-primary btn-block" >Submit</button>
+                        </div>
+
+                    </form>  
+                        <!--
                         <form (ngSubmit) = "leaveFeedback()">
                             <div class="form-group">
                               <label for="exampleInputEmail1">Your opinion</label>
@@ -15,15 +51,14 @@
                               <br>
                             </div>
                            
-                            <!-- <div class="form-group form-check">
+                            <div class="form-group form-check">
                               <input type="checkbox" class="form-check-input" id="exampleCheck1">
                               <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                            </div> -->
+                            </div> 
                             <button  class="btn btn-primary">Submit</button>
                           </form>
-                          
-                    </div>
-                </div>
+                        -->                         
+              
             </div>
             <!-- <div class="col-md-12">
                 <div class="card card-plain">
@@ -50,3 +85,5 @@
         </div>
     </div>
 </div>
+
+
