@@ -12,11 +12,10 @@ table, th, td {
 <div *ngFor = "let fdb of feedbacks">
     <table style="width: 60%; margin-left: 20%;">
         <tr>
-            <th style="width: 70%; background-color: rgb(177, 231, 227);">{{fdb.imePrezime}}</th>
-            <th style="background-color: rgb(177, 231, 227);">{{fdb.dateCreated | date:'dd/MM/yyyy'}}</th>
+            <th style="width: 70%; background-color: rgb(177, 231, 227);">{{fdb.personId}}</th>
         </tr>
         <tr>
-            <td colspan="2">{{fdb.description}}</td>
+            <td colspan="2">{{fdb.text}}</td>
         </tr>
     </table>
     <br>

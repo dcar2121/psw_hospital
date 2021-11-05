@@ -4,7 +4,7 @@ using Hospital_API.Service;
 using Hospital_library.Model;
 using Microsoft.AspNetCore.Mvc;
 using System;
-
+using System.Collections.Generic;
 
 namespace Hospital_API.Controller
 {
@@ -24,6 +24,36 @@ namespace Hospital_API.Controller
             _feedbackService = feedbackService;
             _mapper = mapper;
 
+        }
+
+        [HttpGet]
+        public IActionResult Get()
+        {
+            var feedbacks = new List<FeedbackDTO>()
+            {
+                new FeedbackDTO()
+                {
+                    PersonId = "1",
+                    Text =  "LOREM IPSUM"
+                },
+                new FeedbackDTO()
+                {
+                    PersonId = "2",
+                    Text =  "IPSUM LOREM"
+                },
+                new FeedbackDTO()
+                {
+                    PersonId = "3",
+                    Text =  "DANAS JE LEP DAN"
+                },
+                new FeedbackDTO()
+                {
+                    PersonId = "4",
+                    Text =  "VEDRO JE"
+                }
+            };
+
+            return Ok(feedbacks);
         }
 
         [HttpPost]

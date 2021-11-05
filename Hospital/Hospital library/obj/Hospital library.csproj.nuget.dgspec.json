@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nikol\\Documents\\FTN\\Projektovanje_softvera\\Projekat\\psw_hospital\\Hospital\\Hospital library\\Hospital library.csproj": {}
+    "C:\\Users\\Georgije\\Desktop\\psw_hospital\\Hospital\\Hospital library\\Hospital library.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nikol\\Documents\\FTN\\Projektovanje_softvera\\Projekat\\psw_hospital\\Hospital\\Hospital library\\Hospital library.csproj": {
+    "C:\\Users\\Georgije\\Desktop\\psw_hospital\\Hospital\\Hospital library\\Hospital library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nikol\\Documents\\FTN\\Projektovanje_softvera\\Projekat\\psw_hospital\\Hospital\\Hospital library\\Hospital library.csproj",
+        "projectUniqueName": "C:\\Users\\Georgije\\Desktop\\psw_hospital\\Hospital\\Hospital library\\Hospital library.csproj",
         "projectName": "Hospital library",
-        "projectPath": "C:\\Users\\nikol\\Documents\\FTN\\Projektovanje_softvera\\Projekat\\psw_hospital\\Hospital\\Hospital library\\Hospital library.csproj",
-        "packagesPath": "C:\\Users\\nikol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nikol\\Documents\\FTN\\Projektovanje_softvera\\Projekat\\psw_hospital\\Hospital\\Hospital library\\obj\\",
+        "projectPath": "C:\\Users\\Georgije\\Desktop\\psw_hospital\\Hospital\\Hospital library\\Hospital library.csproj",
+        "packagesPath": "C:\\Users\\Georgije\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Georgije\\Desktop\\psw_hospital\\Hospital\\Hospital library\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nikol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Georgije\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
