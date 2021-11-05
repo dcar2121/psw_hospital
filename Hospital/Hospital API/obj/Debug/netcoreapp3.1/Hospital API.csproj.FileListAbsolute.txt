@@ -70,7 +70,6 @@ C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Hospital API\obj\
 C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\staticwebassets\Hospital API.StaticWebAssets.xml
 C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\scopedcss\bundle\Hospital API.styles.css
 C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.RazorTargetAssemblyInfo.cache
-C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.csproj.CopyComplete
 C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.dll
 C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.pdb
 C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.genruntimeconfig.cache
@@ -219,3 +218,4 @@ C:\Users\bogda\OneDrive\Documents\GitHub\PSWHospital\psw_hospital\Hospital\Hospi
 C:\Users\bogda\OneDrive\Documents\GitHub\PSWHospital\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.dll
 C:\Users\bogda\OneDrive\Documents\GitHub\PSWHospital\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.pdb
 C:\Users\bogda\OneDrive\Documents\GitHub\PSWHospital\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.genruntimeconfig.cache
+C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.csproj.AssemblyReference.cache

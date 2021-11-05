@@ -22,6 +22,7 @@ export class FeedbackService{
   postLogin(){
     this.formFeedback.feedbackDate = '03.11.2021.';
     console.log(this.formFeedback);
+    
     return this.http.post(this.baseUrl,this.formFeedback);
   }
 
@@ -51,6 +52,15 @@ export class FeedbackService{
     this.http.get(this.basePharmacy)
      .toPromise()
      .then(res => this.pharmacyNames = res as string[]);
+   }
+
+   validate(feedbackValid: FeedbackModel): string{
+     if(feedbackValid.content.length === 0) {
+      return 'You must fill the content';
+     } else if (feedbackValid.pharmacyName.length === 0) {
+      return 'You must choose pharmacy!'
+     }
+     return 'Successfull!'
    }
 
 }

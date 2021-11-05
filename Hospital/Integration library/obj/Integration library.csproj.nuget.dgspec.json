@@ -1,24 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bogda\\OneDrive\\Documents\\GitHub\\PSWHospital\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj": {}
+    "C:\\Users\\pavko\\OneDrive\\Documents\\GitHub\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bogda\\OneDrive\\Documents\\GitHub\\PSWHospital\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj": {
+    "C:\\Users\\pavko\\OneDrive\\Documents\\GitHub\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bogda\\OneDrive\\Documents\\GitHub\\PSWHospital\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj",
+        "projectUniqueName": "C:\\Users\\pavko\\OneDrive\\Documents\\GitHub\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj",
         "projectName": "Integration library",
-        "projectPath": "C:\\Users\\bogda\\OneDrive\\Documents\\GitHub\\PSWHospital\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj",
-        "packagesPath": "C:\\Users\\bogda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bogda\\OneDrive\\Documents\\GitHub\\PSWHospital\\psw_hospital\\Hospital\\Integration library\\obj\\",
+        "projectPath": "C:\\Users\\pavko\\OneDrive\\Documents\\GitHub\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj",
+        "packagesPath": "C:\\Users\\pavko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pavko\\OneDrive\\Documents\\GitHub\\psw_hospital\\Hospital\\Integration library\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\bogda\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\pavko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -89,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

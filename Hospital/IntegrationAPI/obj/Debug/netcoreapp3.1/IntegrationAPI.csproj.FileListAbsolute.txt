@@ -388,3 +388,4 @@ C:\Users\bogda\OneDrive\Documents\GitHub\PSWHospital\psw_hospital\Hospital\Integ
 C:\Users\bogda\OneDrive\Documents\GitHub\PSWHospital\psw_hospital\Hospital\IntegrationAPI\obj\Debug\netcoreapp3.1\IntegrationAPI.dll
 C:\Users\bogda\OneDrive\Documents\GitHub\PSWHospital\psw_hospital\Hospital\IntegrationAPI\obj\Debug\netcoreapp3.1\IntegrationAPI.pdb
 C:\Users\bogda\OneDrive\Documents\GitHub\PSWHospital\psw_hospital\Hospital\IntegrationAPI\obj\Debug\netcoreapp3.1\IntegrationAPI.genruntimeconfig.cache
+C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\IntegrationAPI\obj\Debug\netcoreapp3.1\IntegrationAPI.csproj.CopyComplete

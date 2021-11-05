@@ -44,3 +44,4 @@ C:\Users\bogda\OneDrive\Documents\GitHub\PSWHospital\psw_hospital\Hospital\Hospi
 C:\Users\bogda\OneDrive\Documents\GitHub\PSWHospital\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital library.csproj.CoreCompileInputs.cache
 C:\Users\bogda\OneDrive\Documents\GitHub\PSWHospital\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital library.dll
 C:\Users\bogda\OneDrive\Documents\GitHub\PSWHospital\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital library.pdb
+C:\Users\pavko\OneDrive\Documents\GitHub\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital library.csproj.AssemblyReference.cache

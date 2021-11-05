@@ -1,8 +1,8 @@
 import { Component, OnInit } from "@angular/core";
-import { NgForm } from "@angular/forms";
-import { IPharmacy } from "../pharmacy";
+import { FormControl, FormGroup, NgForm, Validators } from "@angular/forms";
+import { ToastrService } from "ngx-toastr";
+import { FeedbackModel } from "../shared/feedback.model";
 import { FeedbackService } from "../shared/feedback.service";
-import { PharmacyService } from "../shared/pharmacy.service";
 
 @Component({
     selector: 'pharmacyFeedbackForm',
@@ -11,7 +11,7 @@ import { PharmacyService } from "../shared/pharmacy.service";
 })
 
 export class PharmacyFeedbackFormComponent  implements OnInit{
-    constructor(public service: FeedbackService ) { }
+    constructor(public service: FeedbackService, private toastr: ToastrService ) { }
 
     title: string = "Pharmacy Feedback";
     pharmacies: string[] = [];
@@ -22,11 +22,28 @@ export class PharmacyFeedbackFormComponent  implements OnInit{
     }   
 
     onSubmit(form: NgForm){
-    this.service.postLogin().subscribe(
-      (res) => {
-        console.log("Successfuly registered to database");
+      this.service.postLogin().subscribe(
+        (res) => {
+          console.log("Successfuly registered to database");
+          this.resetForm(form);
+          this.toastr.success('Your feedback is submitted successfully!', 'Feedback register');
+        },
+        err => {console.log(err); }
+      );
+    }
+
+    resetForm(form: NgForm) {
+      form.form.reset();
+      this.service.formFeedback = new FeedbackModel();
+    }
+
+    validate(feedbackValid: FeedbackModel): string{
+      if(feedbackValid.content.length === 0) {
+       return 'You must fill the content';
+      } else if (feedbackValid.pharmacyName.length === 0) {
+       return 'You must choose pharmacy!'
       }
-    )
+      return 'Successfull!'
     }
 
 }
