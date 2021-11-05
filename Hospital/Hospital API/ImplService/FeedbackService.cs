@@ -2,6 +2,7 @@
 using Hospital_library.MedicalRecords.Service;
 using Hospital_library.Model;
 using System;
+using System.Collections.Generic;
 
 namespace Hospital_API.Service
 {
@@ -24,6 +25,11 @@ namespace Hospital_API.Service
             }
             _repositoryFactory.GetFeedbackRepository().Add(feedback);
         }  
+
+        public List<Feedback> GetAll()
+        {
+            return _repositoryFactory.GetFeedbackRepository().GetAll();
+        }
     }
         
 }

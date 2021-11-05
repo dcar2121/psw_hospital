@@ -18,42 +18,19 @@ namespace Hospital_API.Controller
         private readonly IMapper _mapper;
 
         // Assign the object in the constructor for dependency injection
-
-        public FeedbackController(FeedbackService feedbackService, IMapper mapper)
+        private readonly MyDbContext dbContext;
+        public FeedbackController(FeedbackService feedbackService, IMapper mapper, MyDbContext myDb)
         {
             _feedbackService = feedbackService;
             _mapper = mapper;
+            dbContext = myDb;
 
         }
 
         [HttpGet]
         public IActionResult Get()
         {
-            var feedbacks = new List<FeedbackDTO>()
-            {
-                new FeedbackDTO()
-                {
-                    PersonId = "1",
-                    Text =  "LOREM IPSUM"
-                },
-                new FeedbackDTO()
-                {
-                    PersonId = "2",
-                    Text =  "IPSUM LOREM"
-                },
-                new FeedbackDTO()
-                {
-                    PersonId = "3",
-                    Text =  "DANAS JE LEP DAN"
-                },
-                new FeedbackDTO()
-                {
-                    PersonId = "4",
-                    Text =  "VEDRO JE"
-                }
-            };
-
-            return Ok(feedbacks);
+            return Ok(_feedbackService.GetAll());
         }
 
         [HttpPost]

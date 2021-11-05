@@ -17,3 +17,13 @@ C:\Users\nikol\Documents\FTN\Projektovanje_softvera\Projekat\psw_hospital\Hospit
 C:\Users\nikol\Documents\FTN\Projektovanje_softvera\Projekat\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.csproj.CoreCompileInputs.cache
 C:\Users\nikol\Documents\FTN\Projektovanje_softvera\Projekat\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.dll
 C:\Users\nikol\Documents\FTN\Projektovanje_softvera\Projekat\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.pdb
+C:\Users\Georgije\Desktop\psw_hospital\Hospital\Integration library\bin\Debug\netcoreapp3.1\Integration library.deps.json
+C:\Users\Georgije\Desktop\psw_hospital\Hospital\Integration library\bin\Debug\netcoreapp3.1\Integration library.dll
+C:\Users\Georgije\Desktop\psw_hospital\Hospital\Integration library\bin\Debug\netcoreapp3.1\Integration library.pdb
+C:\Users\Georgije\Desktop\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.csproj.AssemblyReference.cache
+C:\Users\Georgije\Desktop\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Georgije\Desktop\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.AssemblyInfoInputs.cache
+C:\Users\Georgije\Desktop\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.AssemblyInfo.cs
+C:\Users\Georgije\Desktop\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.csproj.CoreCompileInputs.cache
+C:\Users\Georgije\Desktop\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.dll
+C:\Users\Georgije\Desktop\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.pdb

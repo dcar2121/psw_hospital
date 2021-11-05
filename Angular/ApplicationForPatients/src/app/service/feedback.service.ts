@@ -4,7 +4,7 @@ import { LeaveFeedback } from '../shared/leaveFeedback';
 import { Observable, throwError } from 'rxjs';
 import { catchError } from 'rxjs/operators';
 import { GlobalSettings } from '../global';
-import { Feedback } from '../homepage/models/feedback';
+import { Feedback } from '../models/feedback';
 
 @Injectable({
   providedIn: 'root',

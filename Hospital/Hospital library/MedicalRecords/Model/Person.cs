@@ -1,9 +1,6 @@
 ﻿using Hospital_library.MedicalRecords.Model;
 using Hospital_library.Model.Enumeration;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Hospital_library.Model
 {
