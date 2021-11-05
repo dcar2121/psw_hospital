@@ -1,0 +1,10 @@
+svg {
+    display: block;
+    width: 100%;
+  }
+  
+    
+.rectClass:hover {
+  opacity:0.3;
+  cursor: pointer;
+}
