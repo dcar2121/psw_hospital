@@ -1,0 +1,32 @@
+<div>
+    <div>
+        <h2>Feedback requests</h2>
+    </div>
+    <div>
+        <table>
+            <tr>
+              <th>User</th>
+              <th>Date</th>
+              <th>Comment</th>
+              <th>Comment's state</th>
+            </tr>
+            <ng-container *ngFor="let feedback of feedbacks">
+            <tr>
+                <td>{{feedback.personId}}</td>
+                <td></td>
+                <td>{{feedback.text}}</td>
+                <div *ngIf="GetFeedbackState(feedback) == 'pending'">
+                  <button (click) = "approveRequest(feedback)">Approve</button>
+                  <button (click) = "rejectRequest(feedback)">Reject</button>
+                </div>
+                <div *ngIf="GetFeedbackState(feedback) == 'approved'">
+                  <td>Approved</td>
+                </div>
+                <div *ngIf="GetFeedbackState(feedback) == 'rejected'">
+                  <td>Rejected</td>
+                </div>
+              </tr>
+            </ng-container>
+          </table>
+    </div>
+</div>
