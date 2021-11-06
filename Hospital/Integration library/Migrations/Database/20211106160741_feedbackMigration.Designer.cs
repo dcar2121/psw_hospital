@@ -6,11 +6,11 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
-namespace Integration_library.Migrations.PharmacyDb
+namespace Integration_library.Migrations.Database
 {
-    [DbContext(typeof(PharmacyDbContext))]
-    [Migration("20211105132726_pharmacyMigration")]
-    partial class pharmacyMigration
+    [DbContext(typeof(DatabaseContext))]
+    [Migration("20211106160741_feedbackMigration")]
+    partial class feedbackMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -20,17 +20,25 @@ namespace Integration_library.Migrations.PharmacyDb
                 .HasAnnotation("ProductVersion", "5.0.11")
                 .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
 
-            modelBuilder.Entity("Integration_library.Pharmacy.Model.Pharmacy", b =>
+            modelBuilder.Entity("Integration_library.Pharmacy.Model.Feedback", b =>
                 {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
+
+                    b.Property<string>("Content")
+                        .HasColumnType("text");
+
+                    b.Property<string>("FeedbackDate")
+                        .HasColumnType("text");
+
                     b.Property<string>("PharmacyName")
                         .HasColumnType("text");
 
-                    b.Property<string>("ApiKey")
-                        .HasColumnType("text");
+                    b.HasKey("Id");
 
-                    b.HasKey("PharmacyName");
-
-                    b.ToTable("Pharmacies");
+                    b.ToTable("Feedbacks");
                 });
 #pragma warning restore 612, 618
         }
