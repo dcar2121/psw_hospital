@@ -16,5 +16,7 @@ namespace Integration_library.Pharmacy.Model
         [Key]
         public String PharmacyName { get; set; }
         public String ApiKey { get; set; }
+
+        public Pharmacy() { }
     }
 }

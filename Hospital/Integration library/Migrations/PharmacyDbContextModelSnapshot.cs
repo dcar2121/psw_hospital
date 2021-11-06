@@ -2,17 +2,15 @@
 using Integration_library.Pharmacy.Model;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
-namespace Integration_library.Migrations.PharmacyDb
+namespace Integration_library.Migrations
 {
     [DbContext(typeof(PharmacyDbContext))]
-    [Migration("20211104213035_migration")]
-    partial class migration
+    partial class PharmacyDbContextModelSnapshot : ModelSnapshot
     {
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

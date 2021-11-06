@@ -6,11 +6,11 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
-namespace Integration_library.Migrations
+namespace Integration_library.Migrations.Database
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20211104110616_newMigration")]
-    partial class newMigration
+    [Migration("20211106160959_feedbackMigration2")]
+    partial class feedbackMigration2
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
