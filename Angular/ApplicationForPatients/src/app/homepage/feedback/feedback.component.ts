@@ -3,9 +3,6 @@ import { FeedbackService } from 'src/app/service/feedback.service';
 import { LeaveFeedback } from 'src/app/shared/leaveFeedback';
 import { StarRatingComponent } from 'ng-starrating';
 
-import {NgbModal, ModalDismissReasons, NgbModalOptions, NgbDropdownToggle, NgbDropdownMenu,
-  NgbDropdown, NgbDropdownItem} from '@ng-bootstrap/ng-bootstrap';
-
 
 @Component({
   selector: 'app-feedback',
@@ -43,21 +40,17 @@ export class FeedbackComponent implements OnInit {
   }
 
   public addNewFeedback(): void {
-  
+    if(this.leaveFeedback.text === '' || this.leaveFeedback.text === undefined){
+      alert('Please fill out the text field.');
+      return;
+    }
+    this.leaveFeedback.personId = '1';
     
-   // leaveFeedback.personId = "1";
-   // leaveFeedback.text = "Ljubazno osoblje, sve naj!";
-    console.log("sending to server...")
 
     this.feedbackService.addFeedback(this.leaveFeedback).subscribe(response => {
       console.log("Submitted to server.")
+      alert('Success.')
     });
-
-    /*
-    this.feedbackService.addFeedback(leaveFeedback).subscribe(response => {
-      console.log("Submitted to server.")
-    });
-    */
 
   } 
 
