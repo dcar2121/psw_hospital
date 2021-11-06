@@ -10,8 +10,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Hospital_API.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    [Migration("20211106142356_TestMigration")]
-    partial class TestMigration
+    [Migration("20211106213711_FeedbackAnonymousMigration")]
+    partial class FeedbackAnonymousMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -24,13 +24,20 @@ namespace Hospital_API.Migrations
             modelBuilder.Entity("Hospital_library.Model.Feedback", b =>
                 {
                     b.Property<string>("Id")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("text");
+
+                    b.Property<bool>("Anonymous")
+                        .HasColumnType("boolean");
 
                     b.Property<DateTime?>("Date")
                         .HasColumnType("timestamp without time zone");
 
                     b.Property<string>("PersonId")
                         .HasColumnType("text");
+
+                    b.Property<bool>("Publish")
+                        .HasColumnType("boolean");
 
                     b.Property<int>("State")
                         .HasColumnType("integer");
@@ -46,6 +53,7 @@ namespace Hospital_API.Migrations
             modelBuilder.Entity("Hospital_library.Model.Person", b =>
                 {
                     b.Property<string>("Id")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("text");
 
                     b.Property<string>("Address")

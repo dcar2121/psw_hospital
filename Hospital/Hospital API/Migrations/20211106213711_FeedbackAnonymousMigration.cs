@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Hospital_API.Migrations
 {
-    public partial class TestMigration : Migration
+    public partial class FeedbackAnonymousMigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -15,7 +15,9 @@ namespace Hospital_API.Migrations
                     PersonId = table.Column<string>(nullable: true),
                     Text = table.Column<string>(nullable: true),
                     Date = table.Column<DateTime>(nullable: true),
-                    State = table.Column<int>(nullable: false)
+                    State = table.Column<int>(nullable: false),
+                    Anonymous = table.Column<bool>(nullable: false),
+                    Publish = table.Column<bool>(nullable: false)
                 },
                 constraints: table =>
                 {
