@@ -13,5 +13,9 @@ namespace Integration_library.Pharmacy.Model
         }
 
         public DbSet<Feedback> Feedbacks { get; set; }
+<<<<<<< HEAD
+
+=======
+>>>>>>> develop
     }
 }

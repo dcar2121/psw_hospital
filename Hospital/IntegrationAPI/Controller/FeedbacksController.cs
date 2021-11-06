@@ -17,20 +17,60 @@ namespace IntegrationAPI.Controller
     public class FeedbacksController : ControllerBase
     {
         private readonly DatabaseContext _context;
+<<<<<<< HEAD
+        private readonly PharmacyDbContext _pharmacycontext;
+
+        public FeedbacksController(DatabaseContext context,PharmacyDbContext c)
+        {
+            _context = context;
+            _pharmacycontext = c;
+=======
 
         public FeedbacksController(DatabaseContext context)
         {
             _context = context;
+>>>>>>> develop
         }
 
         // GET: api/Feedbacks
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Feedback>>> GetFeedbacks()
         {
+<<<<<<< HEAD
+
+=======
+>>>>>>> develop
             return await _context.Feedbacks.ToListAsync();
         }
 
         [HttpGet]
+<<<<<<< HEAD
+        [Route("pharmacyNames")]
+        public List<string> getPharmacyNames()
+        {
+            List<string> names = new List<string>();
+            _pharmacycontext.Pharmacies.ToList().ForEach(pharmacy => names.Add(pharmacy.PharmacyName));
+            return names;
+        }
+
+        [HttpPost]
+        [Route("registerPharmacy")]
+        public IActionResult AddHospital(string apiKey)
+        {
+            Random rnd = new Random();
+            string pharmacyName = "pharmacy" + rnd.Next(500);
+            _pharmacycontext.Pharmacies.Add(new Pharmacy(pharmacyName, "newPharmacyKey"));
+            _pharmacycontext.SaveChanges();
+            return Ok();
+        }
+
+        [HttpGet]
+        [Route("pharmacy/getFeedbackResponse")]
+        public String GetFeedbackResponses()
+        {
+
+            String url = "https://localhost:44377/api/FeedbackResponses";
+=======
         [Route("pharmacy/getFeedbackResponse")]
         public String GetFeedbackResponses()
         {
@@ -51,13 +91,17 @@ namespace IntegrationAPI.Controller
         public String GetFeedbackResponse(int id)
         {
             String url = "https://localhost:44377/api/FeedbackResponses/" + id; // + id feedback-a
+>>>>>>> develop
             var client = new RestClient(url);
             var request = new RestRequest();
 
             var response = client.Get(request);
+<<<<<<< HEAD
+=======
 
             //dodati i zastitu sta ako nema responsa na taj feedback
             FeedbackResponse responses = JsonSerializer.Deserialize<FeedbackResponse>(response.Content.ToString());
+>>>>>>> develop
             return response.Content.ToString();
         }
 
@@ -75,6 +119,8 @@ namespace IntegrationAPI.Controller
             return feedback;
         }
 
+<<<<<<< HEAD
+=======
         // PUT: api/Feedbacks/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
@@ -110,6 +156,7 @@ namespace IntegrationAPI.Controller
         // POST: api/Feedbacks
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
+>>>>>>> develop
         [HttpPost]
         public async Task<ActionResult<Feedback>> PostFeedback(Feedback feedback)
         {
@@ -121,12 +168,40 @@ namespace IntegrationAPI.Controller
             var request = new RestRequest();
             request.AddJsonBody(feedback);
 
+<<<<<<< HEAD
+            String hospitalApiKey = getPharmacyApiKey(feedback.PharmacyName);
+            request.AddHeader("ApiKey", hospitalApiKey);
+
+            Response.Headers.Add("ApiKey", hospitalApiKey);
+
+            var response = client.Post(request);
+            return CreatedAtAction("GetFeedback", new { id = feedback.Id }, feedback);
+        }
+
+        private String getPharmacyApiKey(String pharmacyName)
+        {
+            List<Pharmacy> result = new List<Pharmacy>();
+            _pharmacycontext.Pharmacies.ToList().ForEach
+                (pharmacy => result.Add(pharmacy));
+
+            foreach(Pharmacy p in result){
+                if (p.PharmacyName.Equals(pharmacyName))
+                    return p.ApiKey;
+            }
+
+            return "Apoteka ne postoji u bazi";
+        }
+
+
+
+=======
             var response = client.Post(request);
 
 
             return CreatedAtAction("GetFeedback", new { id = feedback.Id }, feedback);
         }
 
+>>>>>>> develop
         // DELETE: api/Feedbacks/5
         [HttpDelete("{id}")]
         public async Task<ActionResult<Feedback>> DeleteFeedback(int id)

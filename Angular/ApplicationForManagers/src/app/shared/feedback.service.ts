@@ -11,10 +11,12 @@ export class FeedbackService{
   formFeedback: FeedbackModel= new FeedbackModel();
   readonly baseUrl = "https://localhost:44317/api/Feedbacks";
   readonly baserUrlResponses = "https://localhost:44317/api/Feedbacks/pharmacy/getFeedbackResponse";
+  readonly basePharmacy = "https://localhost:44317/api/Feedbacks/pharmacyNames";
   feedbackList: FeedbackModel[] = [];
   feedbackResponses : FeedbackResponseModel[] = [];
   feedbackResponse: FeedbackResponseModel = new FeedbackResponseModel();
-
+  pharmacyNames: string[] = [];
+  
   constructor(private http: HttpClient) { }
 
   postLogin(){
@@ -44,5 +46,20 @@ export class FeedbackService{
       }
     }
   }
+
+  getPharmacyNames(){
+    this.http.get(this.basePharmacy)
+     .toPromise()
+     .then(res => this.pharmacyNames = res as string[]);
+   }
+
+   validate(feedbackValid: FeedbackModel): string{
+     if(feedbackValid.content.length === 0) {
+      return 'You must fill the content';
+     } else if (feedbackValid.pharmacyName.length === 0) {
+      return 'You must choose pharmacy!'
+     }
+     return 'Successfull!'
+   }
 
 }

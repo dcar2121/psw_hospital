@@ -5,18 +5,18 @@
             <b>{{title}}</b>
         </div>
         <div class="card-body"><br/>
-            <form>
+            <form #form = "ngForm" (submit) = "onSubmit(form)">
                 <div class="form-group">
                     <label>Hospital name:</label>
-                    <input class="form-control" type="text" />
+                    <input class="form-control" type="text" name="Name" #Name="ngModel" [(ngModel)]="service.formHospitalRegistration.hospitalName"/>
                 </div><br/>
                 <div class="form-group">
                     <label for="exampleFormControlTextarea1">Hospital address:</label>
-                    <input class="form-control" type="text" />
+                    <input class="form-control" type="text" name="Address" #Name="ngModel" [(ngModel)]="service.formHospitalRegistration.hospitalAddress"/>
                 </div><br/>
                 <div class="form-group">
                     <label for="exampleFormControlTextarea1">Hospital city:</label>
-                    <select class="form-control" id="hospitalCity">
+                    <select class="form-control" id="hospitalCity" name="hospitalCity" #Name="ngModel" [(ngModel)] = "service.formHospitalRegistration.hospitalCity">
                         <option *ngFor='let city of cities'>
                           {{city.name}}
                         </option>
