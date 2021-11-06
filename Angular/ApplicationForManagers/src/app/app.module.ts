@@ -14,6 +14,7 @@ import { PharmacyFeedbacksComponent } from './pharmacyFeedbacks/pharmacyFeedback
 import { SidebarComponent } from './sidebar/sidebar.component';
 import {HttpClientModule} from '@angular/common/http';
 import { HospitalMapComponent } from './hospital-map/hospital-map.component';
+import { FirstfloorComponent } from './firstfloor/firstfloor.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { HospitalMapComponent } from './hospital-map/hospital-map.component';
     SidebarComponent,
     PharmacyFeedbackFormComponent,
     PharmacyFeedbacksComponent,
-    HospitalMapComponent
+    HospitalMapComponent,
+    FirstfloorComponent
 
   ],
   imports: [
@@ -34,6 +36,7 @@ import { HospitalMapComponent } from './hospital-map/hospital-map.component';
       { path: 'home', component: HomePageComponent },
       { path: '', redirectTo: 'home', pathMatch: 'full' },
       { path: 'app-hospital-map',component : HospitalMapComponent},
+      { path: 'app-firstfloor',component : FirstfloorComponent},
       { path: '**', redirectTo: 'home', pathMatch: 'full' }
     ]),
     FormsModule,
