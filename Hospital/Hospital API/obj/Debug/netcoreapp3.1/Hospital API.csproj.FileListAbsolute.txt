@@ -69,4 +69,3 @@ C:\Users\nikol\Documents\FTN\Projektovanje_softvera\Projekat\psw_hospital\Hospit
 C:\Users\nikol\Documents\FTN\Projektovanje_softvera\Projekat\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\nikol\Documents\FTN\Projektovanje_softvera\Projekat\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Hospital library.dll
 C:\Users\nikol\Documents\FTN\Projektovanje_softvera\Projekat\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Hospital library.pdb
-C:\Users\nikol\Documents\FTN\Projektovanje_softvera\Projekat\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.csproj.CopyComplete

@@ -9,5 +9,7 @@ namespace Hospital_API.DTO
     {
         public string PersonId { get; set; }
         public string Text { get; set; }
+        public bool Anonymous { get; set; }
+        public bool Publish { get; set; }
     }
 }

@@ -22,13 +22,20 @@ namespace Hospital_API.Migrations
             modelBuilder.Entity("Hospital_library.Model.Feedback", b =>
                 {
                     b.Property<string>("Id")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("text");
+
+                    b.Property<bool>("Anonymous")
+                        .HasColumnType("boolean");
 
                     b.Property<DateTime?>("Date")
                         .HasColumnType("timestamp without time zone");
 
                     b.Property<string>("PersonId")
                         .HasColumnType("text");
+
+                    b.Property<bool>("Publish")
+                        .HasColumnType("boolean");
 
                     b.Property<string>("Text")
                         .HasColumnType("text");
@@ -41,6 +48,7 @@ namespace Hospital_API.Migrations
             modelBuilder.Entity("Hospital_library.Model.Person", b =>
                 {
                     b.Property<string>("Id")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("text");
 
                     b.Property<string>("Address")

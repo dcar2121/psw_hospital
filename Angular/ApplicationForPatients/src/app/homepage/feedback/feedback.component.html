@@ -3,85 +3,74 @@
   
       <div class="col-md-12">
         <div class="card">
-          <div class="card-header">
+          <div class="card-header" >
             <h2 class="title">Leave a feedback</h2>
             <p class="category">Tell us what you think about us</p>
           </div>
-          <div class="card-body">
+            <div class="card-body">
                     <form>
+
                         <div class="row">
-                            <div class="col-md-12">
+                            <div class="col-md-12 pl-1">
                                 <div class="form-group" >
                                     <div style="text-align:center">
+                                        
                                         <label for="text">Your opinion</label>
-                                        <input width="width:5000px" height="height: 500px" type="text" class="form-control" id="text"
+                                        
+                                        <input style="height: 150px" type="text" class="form-control" id="text"
                                             placeholder="Enter text here"
                                             required
                                             [(ngModel)]="leaveFeedback.text" name="text" #name="ngModel">
+
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div >
-                                <div class="form-group">
-                                    <div style="text-align:center">
-                                        <star-rating [value]= "value" 
-                                                     [totalstars]="totalstars" 
-                                                     [checkedcolor]="checkedcolor" 
-                                                     [uncheckedcolor]="uncheckedcolor" 
-                                                     [size]="size" 
-                                                     [readonly]="readonly" 
-                                                     (rate)="onRate($event)"></star-rating>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>     
-                           
-                        <div>
-                            <button (click) = "addNewFeedback()" class="btn btn-primary btn-block" >Submit</button>
                         </div>
 
-                    </form>  
-                        <!--
-                        <form (ngSubmit) = "leaveFeedback()">
-                            <div class="form-group">
-                              <label for="exampleInputEmail1">Your opinion</label>
-                              <input type="text" class="form-control" placeholder="Enter text here">
-                              <br>
-                            </div>
+                        <div class="row">
+                            <div class="col-md-12 pl-1">
+                                <div class="form-group" >
+                                        <div style="text-align:center">
+                                            
+                                            <input #AnonymousFeedback
+                                                    id="AnonymousFeedback" 
+                                                    type="checkbox" 
+                                                    [checked]="leaveFeedback.anonymous" 
+                                                    (change)="isCheckedAnonymous(AnonymousFeedback.checked)"
+                                             /> Do you want to stay anonymous?
                            
-                            <div class="form-group form-check">
-                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                              <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                            </div> 
-                            <button  class="btn btn-primary">Submit</button>
-                          </form>
-                        -->                         
-              
+                                        </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12 pl-2">
+                                <div class="form-group" >
+                                        <div style="text-align:center">
+                                            
+                                            <input #PublishFeedback
+                                                id="PublishFeedback" 
+                                                type="checkbox" 
+                                                [checked]="leaveFeedback.publish" 
+                                                (change)="isCheckedPublish(PublishFeedback.checked)"
+                                            /> Do you want to publish feedback?
+                           
+                                        </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 pl-2">
+                                <button (click) = "addNewFeedback()" class="btn btn-primary btn-block" >Submit</button>
+                            </div>
+                        </div>
+
+                    </form>                     
             </div>
-            <!-- <div class="col-md-12">
-                <div class="card card-plain">
-                    <div class="header">
-                        <h4 class="title">Table on Plain Background</h4>
-                        <p class="category">Here is a subtitle for this table</p>
-                    </div>
-                    <div class="content table-responsive table-full-width">
-                        <table class="table table-hover">
-                            <thead>
-                                <tr>
-                                    <th *ngFor="let cell of tableData2.headerRow">{{ cell }}</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr *ngFor="let row of tableData2.dataRows">
-                                    <td *ngFor="let cell of row">{{cell}}</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div> 
-            </div>-->
         </div>
     </div>
 </div>
