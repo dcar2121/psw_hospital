@@ -4,7 +4,6 @@ import { HospitalMapComponent } from './hospital-map/hospital-map.component';
 
 const routes: Routes = [
 
-  {path: "", component: HospitalMapComponent}
 ];
 
 @NgModule({
