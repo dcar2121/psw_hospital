@@ -11,11 +11,11 @@ namespace Hospital_API.Service
     public class FeedbackService : IFeedbackService
     {
         public HospitalRepositoryFactory _repositoryFactory;
-        //IFeedbackRepository _repository; 
+        
         public FeedbackService(HospitalRepositoryFactory repositoryFactory)
         {
             _repositoryFactory = repositoryFactory;
-            //_repository = repo;
+           
         }
 
         public void Add(Feedback feedback) 

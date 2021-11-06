@@ -13,5 +13,7 @@ namespace Hospital_library.Model
         public string Text { get; set; }
         public DateTime? Date { get; set; }
         public FeedbackState State { get; set; } = FeedbackState.pending;
+        public bool Anonymous { get; set; }
+        public bool Publish { get; set; }
     }
 }
