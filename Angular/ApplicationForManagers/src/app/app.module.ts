@@ -1,10 +1,16 @@
 import { NgModule } from '@angular/core';
+<<<<<<< HEAD
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { ToastrModule } from 'ngx-toastr';
+=======
+import { FormsModule } from '@angular/forms';
+import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule } from '@angular/router';
+>>>>>>> develop
 
 import { AppComponent } from './app.component';
 import { HomePageComponent } from './home/homePage.component';
@@ -32,10 +38,14 @@ import {HttpClientModule} from '@angular/common/http';
       { path: '**', redirectTo: 'home', pathMatch: 'full' }
     ]),
     FormsModule,
+<<<<<<< HEAD
     HttpClientModule,
     BrowserAnimationsModule,
     ToastrModule.forRoot(),
     ReactiveFormsModule
+=======
+    HttpClientModule
+>>>>>>> develop
   ],
   providers: [],
   bootstrap: [AppComponent]

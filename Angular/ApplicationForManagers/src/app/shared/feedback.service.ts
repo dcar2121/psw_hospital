@@ -11,18 +11,27 @@ export class FeedbackService{
   formFeedback: FeedbackModel= new FeedbackModel();
   readonly baseUrl = "https://localhost:44317/api/Feedbacks";
   readonly baserUrlResponses = "https://localhost:44317/api/Feedbacks/pharmacy/getFeedbackResponse";
+<<<<<<< HEAD
   readonly basePharmacy = "https://localhost:44317/api/Feedbacks/pharmacyNames";
   feedbackList: FeedbackModel[] = [];
   feedbackResponses : FeedbackResponseModel[] = [];
   feedbackResponse: FeedbackResponseModel = new FeedbackResponseModel();
   pharmacyNames: string[] = [];
+=======
+  feedbackList: FeedbackModel[] = [];
+  feedbackResponses : FeedbackResponseModel[] = [];
+  feedbackResponse: FeedbackResponseModel = new FeedbackResponseModel();
+>>>>>>> develop
 
   constructor(private http: HttpClient) { }
 
   postLogin(){
     this.formFeedback.feedbackDate = '03.11.2021.';
     console.log(this.formFeedback);
+<<<<<<< HEAD
     
+=======
+>>>>>>> develop
     return this.http.post(this.baseUrl,this.formFeedback);
   }
 
@@ -48,6 +57,7 @@ export class FeedbackService{
     }
   }
 
+<<<<<<< HEAD
   getPharmacyNames(){
     this.http.get(this.basePharmacy)
      .toPromise()
@@ -63,4 +73,6 @@ export class FeedbackService{
      return 'Successfull!'
    }
 
+=======
+>>>>>>> develop
 }

@@ -17,23 +17,34 @@ namespace IntegrationAPI.Controller
     public class FeedbacksController : ControllerBase
     {
         private readonly DatabaseContext _context;
+<<<<<<< HEAD
         private readonly PharmacyDbContext _pharmacycontext;
 
         public FeedbacksController(DatabaseContext context,PharmacyDbContext c)
         {
             _context = context;
             _pharmacycontext = c;
+=======
+
+        public FeedbacksController(DatabaseContext context)
+        {
+            _context = context;
+>>>>>>> develop
         }
 
         // GET: api/Feedbacks
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Feedback>>> GetFeedbacks()
         {
+<<<<<<< HEAD
 
+=======
+>>>>>>> develop
             return await _context.Feedbacks.ToListAsync();
         }
 
         [HttpGet]
+<<<<<<< HEAD
         [Route("pharmacyNames")]
         public List<string> getPharmacyNames()
         {
@@ -59,10 +70,38 @@ namespace IntegrationAPI.Controller
         {
 
             String url = "https://localhost:44377/api/FeedbackResponses";
+=======
+        [Route("pharmacy/getFeedbackResponse")]
+        public String GetFeedbackResponses()
+        {
+            //izvucemo id feedbacka  koji stavimo u header ovog geta recimo i izvucemo hospital jer treba da bismo postavili njen api key (koji imamo u nansoj bazi ) u request
+            String url = "https://localhost:44377/api/FeedbackResponses"; // + id feedback-a
             var client = new RestClient(url);
             var request = new RestRequest();
 
             var response = client.Get(request);
+
+            //dodati i zastitu sta ako nema responsa na taj feedback
+            //FeedbackResponse responses = JsonSerializer.Deserialize<FeedbackResponse>(response.Content.ToString());
+            return response.Content.ToString();
+        }
+
+        [HttpGet]
+        [Route("pharmacy/getFeedbackResponse/{id}")]
+        public String GetFeedbackResponse(int id)
+        {
+            String url = "https://localhost:44377/api/FeedbackResponses/" + id; // + id feedback-a
+>>>>>>> develop
+            var client = new RestClient(url);
+            var request = new RestRequest();
+
+            var response = client.Get(request);
+<<<<<<< HEAD
+=======
+
+            //dodati i zastitu sta ako nema responsa na taj feedback
+            FeedbackResponse responses = JsonSerializer.Deserialize<FeedbackResponse>(response.Content.ToString());
+>>>>>>> develop
             return response.Content.ToString();
         }
 
@@ -80,6 +119,44 @@ namespace IntegrationAPI.Controller
             return feedback;
         }
 
+<<<<<<< HEAD
+=======
+        // PUT: api/Feedbacks/5
+        // To protect from overposting attacks, enable the specific properties you want to bind to, for
+        // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutFeedback(int id, Feedback feedback)
+        {
+            if (id != feedback.Id)
+            {
+                return BadRequest();
+            }
+
+            _context.Entry(feedback).State = EntityState.Modified;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!FeedbackExists(id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
+            return NoContent();
+        }
+
+        // POST: api/Feedbacks
+        // To protect from overposting attacks, enable the specific properties you want to bind to, for
+        // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
+>>>>>>> develop
         [HttpPost]
         public async Task<ActionResult<Feedback>> PostFeedback(Feedback feedback)
         {
@@ -91,6 +168,7 @@ namespace IntegrationAPI.Controller
             var request = new RestRequest();
             request.AddJsonBody(feedback);
 
+<<<<<<< HEAD
             String hospitalApiKey = getPharmacyApiKey(feedback.PharmacyName);
             request.AddHeader("ApiKey", hospitalApiKey);
 
@@ -116,6 +194,14 @@ namespace IntegrationAPI.Controller
 
 
 
+=======
+            var response = client.Post(request);
+
+
+            return CreatedAtAction("GetFeedback", new { id = feedback.Id }, feedback);
+        }
+
+>>>>>>> develop
         // DELETE: api/Feedbacks/5
         [HttpDelete("{id}")]
         public async Task<ActionResult<Feedback>> DeleteFeedback(int id)
