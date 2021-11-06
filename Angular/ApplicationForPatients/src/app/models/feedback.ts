@@ -1,4 +1,5 @@
 export interface Feedback {
-    personId: number;
+    personName: string;
     text: string;
+    date: Date;
 }

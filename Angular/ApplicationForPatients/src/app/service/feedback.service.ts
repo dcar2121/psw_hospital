@@ -15,8 +15,6 @@ export class FeedbackService {
 
     constructor(private http: HttpClient) { }
 
-    feedbacks: any[] = [];
-
     public getFeedbacks(): Observable<Feedback[]>{
       return this.http.get<Feedback[]>(this.feedbackUrl);
     }

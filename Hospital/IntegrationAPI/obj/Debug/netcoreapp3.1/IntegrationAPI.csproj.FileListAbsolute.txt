@@ -126,7 +126,6 @@ C:\Users\Georgije\Desktop\psw_hospital\Hospital\IntegrationAPI\obj\Debug\netcore
 C:\Users\Georgije\Desktop\psw_hospital\Hospital\IntegrationAPI\obj\Debug\netcoreapp3.1\staticwebassets\IntegrationAPI.StaticWebAssets.xml
 C:\Users\Georgije\Desktop\psw_hospital\Hospital\IntegrationAPI\obj\Debug\netcoreapp3.1\scopedcss\bundle\IntegrationAPI.styles.css
 C:\Users\Georgije\Desktop\psw_hospital\Hospital\IntegrationAPI\obj\Debug\netcoreapp3.1\IntegrationAPI.RazorTargetAssemblyInfo.cache
-C:\Users\Georgije\Desktop\psw_hospital\Hospital\IntegrationAPI\obj\Debug\netcoreapp3.1\IntegrationAPI.csproj.CopyComplete
 C:\Users\Georgije\Desktop\psw_hospital\Hospital\IntegrationAPI\obj\Debug\netcoreapp3.1\IntegrationAPI.dll
 C:\Users\Georgije\Desktop\psw_hospital\Hospital\IntegrationAPI\obj\Debug\netcoreapp3.1\IntegrationAPI.pdb
 C:\Users\Georgije\Desktop\psw_hospital\Hospital\IntegrationAPI\obj\Debug\netcoreapp3.1\IntegrationAPI.genruntimeconfig.cache
