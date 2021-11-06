@@ -107,3 +107,4 @@ C:\Users\Georgije\Desktop\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreap
 C:\Users\Georgije\Desktop\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.dll
 C:\Users\Georgije\Desktop\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.pdb
 C:\Users\Georgije\Desktop\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.genruntimeconfig.cache
+C:\Users\Georgije\Desktop\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.csproj.CopyComplete
