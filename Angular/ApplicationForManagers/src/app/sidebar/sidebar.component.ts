@@ -10,7 +10,7 @@ export class SidebarComponent {
 
     menuItems: any[] = [
         {
-            path: '',
+            path: '/patient-feedbacks',
             title: 'PATIENTS FEEDBACKS',
             class: ''
         },
