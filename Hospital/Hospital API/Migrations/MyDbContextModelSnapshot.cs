@@ -30,6 +30,9 @@ namespace Hospital_API.Migrations
                     b.Property<string>("PersonId")
                         .HasColumnType("text");
 
+                    b.Property<int>("State")
+                        .HasColumnType("integer");
+
                     b.Property<string>("Text")
                         .HasColumnType("text");
 

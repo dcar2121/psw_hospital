@@ -10,8 +10,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Hospital_API.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    [Migration("20211103224558_init")]
-    partial class init
+    [Migration("20211106142356_TestMigration")]
+    partial class TestMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -21,22 +21,19 @@ namespace Hospital_API.Migrations
                 .HasAnnotation("ProductVersion", "3.1.0")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
-            modelBuilder.Entity("Model.Feedback", b =>
+            modelBuilder.Entity("Hospital_library.Model.Feedback", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("text");
 
-                    b.Property<DateTime>("Date")
+                    b.Property<DateTime?>("Date")
                         .HasColumnType("timestamp without time zone");
-
-                    b.Property<string>("Functionality")
-                        .HasColumnType("text");
-
-                    b.Property<int>("FunctionalityType")
-                        .HasColumnType("integer");
 
                     b.Property<string>("PersonId")
                         .HasColumnType("text");
+
+                    b.Property<int>("State")
+                        .HasColumnType("integer");
 
                     b.Property<string>("Text")
                         .HasColumnType("text");
@@ -46,7 +43,7 @@ namespace Hospital_API.Migrations
                     b.ToTable("Feedbacks");
                 });
 
-            modelBuilder.Entity("Model.Person", b =>
+            modelBuilder.Entity("Hospital_library.Model.Person", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("text");
@@ -59,9 +56,6 @@ namespace Hospital_API.Migrations
 
                     b.Property<string>("Email")
                         .HasColumnType("text");
-
-                    b.Property<int>("Gender")
-                        .HasColumnType("integer");
 
                     b.Property<string>("Jmbg")
                         .HasColumnType("text");
@@ -80,6 +74,9 @@ namespace Hospital_API.Migrations
 
                     b.Property<string>("Username")
                         .HasColumnType("text");
+
+                    b.Property<int>("gender")
+                        .HasColumnType("integer");
 
                     b.HasKey("Id");
 

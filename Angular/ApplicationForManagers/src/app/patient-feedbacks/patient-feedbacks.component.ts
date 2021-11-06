@@ -43,21 +43,30 @@ export class PatientFeedbacksComponent implements OnInit {
   }
 
   public approveRequest(feedback: PatientFeedbacks): boolean {
-    feedback.state = FeedbackState.approved;
-    this.patientFeedbackService.approveFeedback(feedback.personId)
+    this.patientFeedbackService.approveFeedback(feedback.id)
     .subscribe(response => {
-      console.log("Request approved.")
+      feedback.state = FeedbackState.approved;
+      return true;
     });
-    return true;
+    return false;
   }
 
   public rejectRequest(feedback: PatientFeedbacks): boolean {
-    feedback.state = FeedbackState.rejected;
-    this.patientFeedbackService.rejectFeedback(feedback.personId)
+    this.patientFeedbackService.rejectFeedback(feedback.id)
     .subscribe(response => {
-      console.log("Request rejected.")
+      feedback.state = FeedbackState.rejected;
+      return true;
     });
-    return true;
+    return false;
+  }
+
+  public withdrawAction(feedback: PatientFeedbacks): boolean {
+    this.patientFeedbackService.withdrawFeedbackAction(feedback.id)
+    .subscribe(response => {
+      feedback.state = FeedbackState.pending;
+      return true;
+    });
+    return false;
   }
 }
 

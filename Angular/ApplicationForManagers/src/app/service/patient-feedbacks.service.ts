@@ -47,7 +47,7 @@ export class PatientFeedbackService {
 
     approveFeedback(id: string): Observable<string>{
       console.log(this.feedbackUrl + '/approve/' + id)
-      return this.http.put<string>(this.feedbackUrl, { PersonId: id, state: 'approved'})
+      return this.http.put<string>(this.feedbackUrl, { Id: id, state: 'approved'})
       .pipe(
         catchError(this.handleError)
       );
@@ -55,7 +55,15 @@ export class PatientFeedbackService {
 
     rejectFeedback(id: string): Observable<string>{
       console.log(this.feedbackUrl + '/approve/' + id)
-      return this.http.put<string>(this.feedbackUrl, { PersonId: id, state: 'rejected'})
+      return this.http.put<string>(this.feedbackUrl, { Id: id, state: 'rejected'})
+      .pipe(
+        catchError(this.handleError)
+      );
+    }
+
+    withdrawFeedbackAction(id: string): Observable<string>{
+      console.log(this.feedbackUrl + '/approve/' + id)
+      return this.http.put<string>(this.feedbackUrl, { Id: id, state: 'pending'})
       .pipe(
         catchError(this.handleError)
       );

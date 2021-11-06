@@ -26,16 +26,6 @@ namespace Hospital_API.Controller
         {
             _feedbackService = feedbackService;
             _mapper = mapper;
-
-            FeedbackResponseDTO f1 = new FeedbackResponseDTO();
-            FeedbackResponseDTO f2 = new FeedbackResponseDTO();
-            f1.PersonId = "user1";
-            f2.PersonId = "user2";
-            f1.Text = "Amazing!";
-            f2.Text = "Awful!";
-            this.feedbacks.Add(f1);
-            this.feedbacks.Add(f2);
-
         }
 
         [HttpPost]
@@ -52,30 +42,16 @@ namespace Hospital_API.Controller
             return Ok();
         }
         [HttpGet]
-        public IActionResult GetTest()
+        public IActionResult GetFeedbacks()
         {
-            return Ok(this.feedbacks);
+            List<Feedback> feedbacks = _feedbackService.GetAll();
+            return Ok(feedbacks);
         }
         [HttpPut]
         public IActionResult ApproveFeedback(FeedbackStateChangeDTO dto)
         {
-            foreach(FeedbackResponseDTO f in this.feedbacks)
-            {
-                if (f.PersonId.Equals(dto.PersonId))
-                {
-                    if (dto.State.Equals("approved"))
-                    {
-                        f.State = FeedbackState.approved;
-                        return Ok();
-                    }
-                    else
-                    {
-                        f.State = FeedbackState.rejected;
-                        return Ok();
-                    }
-                }
-            }
-            return BadRequest();
+            _feedbackService.ChangeState(dto.Id, dto.State);
+            return Ok();
         } 
     }
 }

@@ -9,7 +9,7 @@ namespace Hospital_library.MedicalRecords.Model
     public class Entity
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
         public string Id { get; set; }
     }
 }

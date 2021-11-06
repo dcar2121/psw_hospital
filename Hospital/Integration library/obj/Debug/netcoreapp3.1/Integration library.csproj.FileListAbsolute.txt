@@ -17,3 +17,13 @@ C:\Users\nikol\Documents\FTN\Projektovanje_softvera\Projekat\psw_hospital\Hospit
 C:\Users\nikol\Documents\FTN\Projektovanje_softvera\Projekat\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.csproj.CoreCompileInputs.cache
 C:\Users\nikol\Documents\FTN\Projektovanje_softvera\Projekat\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.dll
 C:\Users\nikol\Documents\FTN\Projektovanje_softvera\Projekat\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.pdb
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Integration library\bin\Debug\netcoreapp3.1\Integration library.deps.json
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Integration library\bin\Debug\netcoreapp3.1\Integration library.dll
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Integration library\bin\Debug\netcoreapp3.1\Integration library.pdb
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.csprojAssemblyReference.cache
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.GeneratedMSBuildEditorConfig.editorconfig
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.AssemblyInfoInputs.cache
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.AssemblyInfo.cs
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.csproj.CoreCompileInputs.cache
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.dll
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Integration library\obj\Debug\netcoreapp3.1\Integration library.pdb

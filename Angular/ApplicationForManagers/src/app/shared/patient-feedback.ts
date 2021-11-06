@@ -6,6 +6,7 @@ export enum FeedbackState {
 
 export class PatientFeedbacks
 {
+    id: string;
     personId: string;
     text: string;
     state: FeedbackState = FeedbackState.pending;
