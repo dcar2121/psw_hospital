@@ -1,4 +1,4 @@
-<div >
+<div class="feedback-table">
     <div>
         <h2>Feedback requests</h2>
     </div>
@@ -24,7 +24,7 @@
                 <td>{{GetFeedbackState(feedback)}}</td>
                 <div *ngIf="feedback.publish">
                   <div *ngIf="GetFeedbackState(feedback) == 'pending'">
-                    <button class="btn btn-primary btn-block" (click) = "approveRequest(feedback)">Approve</button>
+                    <button (click) = "approveRequest(feedback)">Approve</button>
                     <button (click) = "rejectRequest(feedback)">Reject</button>
                   </div>
                   <div *ngIf="GetFeedbackState(feedback) != 'pending'">

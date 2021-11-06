@@ -62,11 +62,11 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[5.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Analyzers": {
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[5.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Relational.Design": {
               "target": "Package",
@@ -76,11 +76,11 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[5.0.11, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[5.0.10, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
               "target": "Package",
@@ -150,6 +150,16 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

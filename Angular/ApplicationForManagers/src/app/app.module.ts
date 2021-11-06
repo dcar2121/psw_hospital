@@ -38,8 +38,8 @@ import { PatientFeedbacksComponent } from './patient-feedbacks/patient-feedbacks
       { path: '', redirectTo: 'home', pathMatch: 'full' },
       { path: 'app-hospital-map',component : HospitalMapComponent},
       { path: 'app-firstfloor',component : FirstfloorComponent},
-      { path: '**', redirectTo: 'home', pathMatch: 'full' },
-      {path: 'patient-feedbacks', component: PatientFeedbacksComponent }
+      { path: 'patient-feedbacks', component: PatientFeedbacksComponent },
+      { path: '**', redirectTo: 'home', pathMatch: 'full' }
     ]),
     FormsModule,
     HttpClientModule,
