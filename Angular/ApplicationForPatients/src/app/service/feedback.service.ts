@@ -17,7 +17,6 @@ export class FeedbackService {
     
 
     addFeedback(leaveFeedback: LeaveFeedback): Observable<LeaveFeedback> {
-      console.log('in addFeedback mrthod');
       
         return this.http.post<LeaveFeedback>(this.feedbackUrl, leaveFeedback)
           .pipe(
