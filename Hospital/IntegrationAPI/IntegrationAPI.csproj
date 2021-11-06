@@ -13,6 +13,20 @@
 
   <ItemGroup>
     <PackageReference Include="Hospital-PSW" Version="1.2.0" />
+<<<<<<< HEAD
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Analyzers" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.1.0" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.Design" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controller\" />
+=======
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.11" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Analyzers" Version="5.0.11" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.11" />
@@ -26,13 +40,17 @@
   </ItemGroup>
 
   <ItemGroup>
+>>>>>>> develop
     <Folder Include="DTO\" />
     <Folder Include="Mapper\" />
   </ItemGroup>
 
+<<<<<<< HEAD
+=======
   <ItemGroup>
     <ProjectReference Include="..\Integration library\Integration library.csproj" />
   </ItemGroup>
 
+>>>>>>> develop
 
 </Project>

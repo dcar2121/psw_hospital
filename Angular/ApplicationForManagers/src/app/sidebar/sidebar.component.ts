@@ -18,6 +18,11 @@ export class SidebarComponent {
             path: '/pharmacyFeedback',
             title: 'PHARMACY FEEDBACKS',
             class: ''
+        },
+        {
+            path: '/app-hospital-map',
+            title: 'HOSPITAL MAP',
+            class : ''
         }
     ]
   

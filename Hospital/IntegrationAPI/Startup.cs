@@ -27,15 +27,15 @@ namespace IntegrationAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-<<<<<<< HEAD
+
+            services.AddControllers();
+
+
             services.AddDbContext<DatabaseContext>(options => options.UseNpgsql(Configuration.GetConnectionString("MyDbContextConnectionString")));
-            services.AddDbContext<PharmacyDbContext>(options => options.UseNpgsql(Configuration.GetConnectionString("MyDbContextConnectionString")));
-=======
-            services.AddDbContext<DatabaseContext>(options => options.UseNpgsql(Configuration.GetConnectionString("MyDbContextConnectionString")));
->>>>>>> develop
             services.AddControllers();
             services.AddCors();
             
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -13,6 +13,8 @@ import { PharmacyFeedbackFormComponent } from './pharmacyFeedbackForm/pharmacyFe
 import { PharmacyFeedbacksComponent } from './pharmacyFeedbacks/pharmacyFeedbacks.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import {HttpClientModule} from '@angular/common/http';
+import { HospitalMapComponent } from './hospital-map/hospital-map.component';
+
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import {HttpClientModule} from '@angular/common/http';
     PharmacyFeedbackComponent,
     SidebarComponent,
     PharmacyFeedbackFormComponent,
-    PharmacyFeedbacksComponent
+    PharmacyFeedbacksComponent,
+    HospitalMapComponent
+
   ],
   imports: [
     BrowserModule,
@@ -29,6 +33,7 @@ import {HttpClientModule} from '@angular/common/http';
       { path: 'pharmacyFeedback', component: PharmacyFeedbackComponent },
       { path: 'home', component: HomePageComponent },
       { path: '', redirectTo: 'home', pathMatch: 'full' },
+      { path: 'app-hospital-map',component : HospitalMapComponent},
       { path: '**', redirectTo: 'home', pathMatch: 'full' }
     ]),
     FormsModule,
@@ -40,5 +45,4 @@ import {HttpClientModule} from '@angular/common/http';
   providers: [],
   bootstrap: [AppComponent]
 })
-
 export class AppModule { }
