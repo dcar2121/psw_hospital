@@ -27,12 +27,8 @@
               "src/assets"
             ],
             "styles": [
-<<<<<<< HEAD
               "src/styles.css",
               "node_modules/ngx-toastr/toastr.css"
-=======
-              "src/styles.css"
->>>>>>> develop
             ],
             "scripts": []
           },
@@ -100,10 +96,6 @@
             ],
             "styles": [
               "src/styles.css"
-<<<<<<< HEAD
-
-=======
->>>>>>> develop
             ],
             "scripts": []
           }

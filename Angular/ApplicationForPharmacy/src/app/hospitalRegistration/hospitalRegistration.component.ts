@@ -1,11 +1,6 @@
-<<<<<<< HEAD
 import { Component, OnInit } from "@angular/core";
 import { NgForm } from "@angular/forms";
 import { HospitalRegistrationService } from "../shared/HospitalRegistration.service";
-
-=======
-import { Component } from "@angular/core";
->>>>>>> develop
 
 @Component({
     selector: 'hospitalRegistration',
@@ -13,7 +8,6 @@ import { Component } from "@angular/core";
     styleUrls: ['./hospitalRegistration.component.css']
 })
 
-<<<<<<< HEAD
 export class HospitalRegistrationComponent implements OnInit{
 
     constructor(public service: HospitalRegistrationService) { }
@@ -36,9 +30,6 @@ export class HospitalRegistrationComponent implements OnInit{
             }
         );
     }
-=======
-export class HospitalRegistrationComponent{
->>>>>>> develop
 
     title: string = "Hospital Registration";
     cities: any[] = [
