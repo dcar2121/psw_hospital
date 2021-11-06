@@ -41,7 +41,5 @@ namespace Hospital_API.Service
             }
             return feedbackDTOs;
         }
-
-
     }
 }
