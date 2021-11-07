@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NavbarComponent } from './navbar.component';
+import { LandingpageLayoutComponent } from './landingpage-layout.component';
 
-describe('NavbarComponent', () => {
-  let component: NavbarComponent;
-  let fixture: ComponentFixture<NavbarComponent>;
+describe('LandingpageLayoutComponent', () => {
+  let component: LandingpageLayoutComponent;
+  let fixture: ComponentFixture<LandingpageLayoutComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NavbarComponent ]
+      declarations: [ LandingpageLayoutComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NavbarComponent);
+    fixture = TestBed.createComponent(LandingpageLayoutComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
