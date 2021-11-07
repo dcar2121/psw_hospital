@@ -16,6 +16,7 @@ import {HttpClientModule} from '@angular/common/http';
 import { HospitalMapComponent } from './hospital-map/hospital-map.component';
 import { FirstfloorComponent } from './firstfloor/firstfloor.component';
 import { PatientFeedbacksComponent } from './patient-feedbacks/patient-feedbacks.component';
+import { SecondfloorComponent } from './secondfloor/secondfloor.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { PatientFeedbacksComponent } from './patient-feedbacks/patient-feedbacks
     PharmacyFeedbacksComponent,
     HospitalMapComponent,
     FirstfloorComponent,
-    PatientFeedbacksComponent
+    PatientFeedbacksComponent,
+    SecondfloorComponent
   ],
   imports: [
     BrowserModule,
@@ -38,6 +40,7 @@ import { PatientFeedbacksComponent } from './patient-feedbacks/patient-feedbacks
       { path: '', redirectTo: 'home', pathMatch: 'full' },
       { path: 'app-hospital-map',component : HospitalMapComponent},
       { path: 'app-firstfloor',component : FirstfloorComponent},
+      { path: 'app-secondfloor',component : SecondfloorComponent},
       { path: 'patient-feedbacks', component: PatientFeedbacksComponent },
       { path: '**', redirectTo: 'home', pathMatch: 'full' }
     ]),
