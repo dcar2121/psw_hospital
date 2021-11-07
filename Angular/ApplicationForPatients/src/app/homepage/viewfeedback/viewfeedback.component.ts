@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Feedback } from '../../models/feedback';
+import { FeedbackService } from '../../service/feedback.service';
 
 @Component({
   selector: 'app-viewfeedback',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ViewfeedbackComponent implements OnInit {
 
-  constructor() { }
+  public feedbacks: Feedback[] = [];
+
+  constructor(private feedbackService: FeedbackService) { }
 
   ngOnInit(): void {
+    this.feedbackService.getFeedbacks().subscribe(res => {
+      this.feedbacks = res;
+    });
   }
 
 }

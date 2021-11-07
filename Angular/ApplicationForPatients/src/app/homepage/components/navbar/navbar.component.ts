@@ -29,7 +29,7 @@ export class NavbarComponent implements OnInit{
     //location: Location;
     private toggleButton: any;
     private sidebarVisible: boolean;
-
+    menuItems: RouteInfo[];
 
     constructor(private element: ElementRef) {
      

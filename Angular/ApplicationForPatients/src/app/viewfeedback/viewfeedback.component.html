@@ -1,1 +1,30 @@
-<p>viewfeedback works!</p>
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+<body>
+
+<h2>Tabele sa svim feedback-ovima</h2>
+
+<div *ngFor = "let fdb of feedbacks">
+    <table style="width: 60%; margin-left: 20%;">
+        <tr>
+            <th style="width: 70%; background-color: rgb(177, 231, 227);">{{fdb.personName}}</th>
+        </tr>
+        <tr>
+            <td colspan="2">{{fdb.text}}</td>
+            <td>{{fdb.date}}</td>
+        </tr>
+    </table>
+    <br>
+</div>
+  
+</body>
+</html>
+
+
+
+

@@ -1,4 +1,5 @@
-﻿using Hospital_API.Repository;
+﻿using Hospital_API.DTO;
+using Hospital_API.Repository;
 using Hospital_library.MedicalRecords.Model.Enums;
 using Hospital_library.MedicalRecords.Service;
 using Hospital_library.Model;
@@ -11,21 +12,45 @@ namespace Hospital_API.Service
     public class FeedbackService : IFeedbackService
     {
         public HospitalRepositoryFactory _repositoryFactory;
-        
+
         public FeedbackService(HospitalRepositoryFactory repositoryFactory)
         {
             _repositoryFactory = repositoryFactory;
-           
+
         }
 
-        public void Add(Feedback feedback) 
+        public List<ViewFeedbackDTO> GetAllApproved()
         {
-            if(feedback.Date == null)
+            List<Feedback> feedbacks = _repositoryFactory.GetFeedbackRepository().GetAll();
+            List<Person> persons = _repositoryFactory.GetPersonRepository().GetAll();
+            List<ViewFeedbackDTO> feedbackDTOs = new List<ViewFeedbackDTO>();
+
+            foreach (Feedback feedback in feedbacks)
+            {
+                Person person = persons.Find(id => id.Id == feedback.PersonId);
+                if (feedback.State == FeedbackState.approved)
+                {
+                    if (feedback.Anonymous)
+                    {
+                        feedbackDTOs.Add(new ViewFeedbackDTO("Anonymous", feedback.Text, feedback.Date));
+                    }
+                    else
+                    {
+                        feedbackDTOs.Add(new ViewFeedbackDTO(person.Name + " " + person.Surname, feedback.Text, feedback.Date));
+                    }
+                }
+            }
+            return feedbackDTOs;
+        }
+
+        public void Add(Feedback feedback)
+        {
+            if (feedback.Date == null)
             {
                 feedback.Date = DateTime.Now;
             }
             _repositoryFactory.GetFeedbackRepository().Add(feedback);
-        } 
+        }
 
         public List<Feedback> GetAll()
         {
@@ -51,5 +76,5 @@ namespace Hospital_API.Service
             _repositoryFactory.GetFeedbackRepository().Update(feedback);
         }
     }
-        
+
 }
