@@ -1,34 +1,49 @@
-D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\appsettings.Development.json
-D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\appsettings.json
-D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Hospital API.exe
-D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Hospital API.deps.json
-D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Hospital API.runtimeconfig.json
-D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Hospital API.runtimeconfig.dev.json
-D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Hospital API.dll
-D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Hospital API.pdb
-D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
-D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
-D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
-D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.Design.dll
-D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Npgsql.dll
-D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
-D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.csproj.AssemblyReference.cache
-D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.GeneratedMSBuildEditorConfig.editorconfig
-D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.AssemblyInfoInputs.cache
-D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.AssemblyInfo.cs
-D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.csproj.CoreCompileInputs.cache
-D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.MvcApplicationPartsAssemblyInfo.cache
-D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\staticwebassets\Hospital API.StaticWebAssets.Manifest.cache
-D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\staticwebassets\Hospital API.StaticWebAssets.xml
-D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\scopedcss\bundle\Hospital API.styles.css
-D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.RazorTargetAssemblyInfo.cache
-D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.dll
-D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.pdb
-D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.genruntimeconfig.cache
-D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.csproj.CopyComplete
-D:\PSW\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Hospital-PSW.dll
-D:\PSW\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.MvcApplicationPartsAssemblyInfo.cs
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.csprojAssemblyReference.cache
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.GeneratedMSBuildEditorConfig.editorconfig
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.AssemblyInfoInputs.cache
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.AssemblyInfo.cs
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.csproj.CoreCompileInputs.cache
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.MvcApplicationPartsAssemblyInfo.cs
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.MvcApplicationPartsAssemblyInfo.cache
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\appsettings.json
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Hospital API.exe
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Hospital API.deps.json
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Hospital API.runtimeconfig.json
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Hospital API.runtimeconfig.dev.json
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Hospital API.dll
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Hospital API.pdb
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Hospital-PSW.dll
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Humanizer.dll
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Npgsql.dll
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Hospital library.dll
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\bin\Debug\netcoreapp3.1\Hospital library.pdb
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\staticwebassets\Hospital API.StaticWebAssets.Manifest.cache
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\staticwebassets\Hospital API.StaticWebAssets.xml
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\scopedcss\bundle\Hospital API.styles.css
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.RazorTargetAssemblyInfo.cache
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.csproj.CopyComplete
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.dll
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.pdb
+D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital API\obj\Debug\netcoreapp3.1\Hospital API.genruntimeconfig.cache

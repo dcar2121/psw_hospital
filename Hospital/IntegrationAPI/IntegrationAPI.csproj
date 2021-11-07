@@ -29,5 +29,9 @@
     <Folder Include="Mapper\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Integration library\Integration library.csproj" />
+  </ItemGroup>
+
 
 </Project>
