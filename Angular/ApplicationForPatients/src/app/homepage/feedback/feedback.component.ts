@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FeedbackService } from 'src/app/service/feedback.service';
 import { LeaveFeedback } from 'src/app/shared/leaveFeedback';
-import { StarRatingComponent } from 'ng-starrating';
+import { NotificationService } from 'src/app/service/notification_service/notification.service';
 
 
 @Component({
@@ -12,47 +12,43 @@ import { StarRatingComponent } from 'ng-starrating';
 export class FeedbackComponent implements OnInit {
   
   leaveFeedback: LeaveFeedback;
-  readonly: any;
-  checkedcolor: any;
-  uncheckedcolor: any;
-  value: number;
-  size: any;
-  totalstars: number;
-
-  constructor(private feedbackService: FeedbackService) { }
+  title = 'toaster-not';
+  
+  constructor(private feedbackService: FeedbackService, 
+              private notifyService : NotificationService) { }
   
   ngOnInit(): void {
     this.leaveFeedback = new LeaveFeedback();
-    this.readonly = false;
-    this.checkedcolor = "red";
-    this.uncheckedcolor = "black";
-    this.value = 1;
-    this.size = "50px";
-    this.totalstars = 5;
-
-  }
-
-  onRate($event:{oldValue:number, newValue:number, starRating:StarRatingComponent}) {
-    alert(`Old Value:${$event.oldValue}, 
-      New Value: ${$event.newValue}, 
-      Checked Color: ${$event.starRating.checkedcolor}, 
-      Unchecked Color: ${$event.starRating.uncheckedcolor}`);
+    this.leaveFeedback.anonymous = false;
   }
 
   public addNewFeedback(): void {
     if(this.leaveFeedback.text === '' || this.leaveFeedback.text === undefined){
-      alert('Please fill out the text field.');
+      this.showToasterError()
       return;
     }
     this.leaveFeedback.personId = '1';
-    
-
-    this.feedbackService.addFeedback(this.leaveFeedback).subscribe(response => {
-      console.log("Submitted to server.")
-      alert('Success.')
+  
+    this.feedbackService.addFeedback(this.leaveFeedback).subscribe((response) => {
+      this.showToasterSuccess()
     });
 
   } 
+  
+  showToasterSuccess(){
+    this.notifyService.showSuccess("The feedback has been added!", "Success!")
+  }
+ 
+  showToasterError(){
+    this.notifyService.showError("You need to complete the form! ", "Error!")
+  }
 
+  isCheckedAnonymous(value: boolean){
+    this.leaveFeedback.anonymous = value;
+  }
+
+  isCheckedPublish(value: boolean){
+    this.leaveFeedback.publish = value;
+  }
 
 }

@@ -1,24 +1,21 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomepageLayoutComponent } from './homepage/homepage-layout/homepage-layout.component';
+import { LayoutComponent } from './layout/layout.component';
+import { LayoutModule } from './layout/layout.module';
 
 const routes: Routes = [
 // {
 //   path: '',
 //   component: LandingPageComponent
-// },
-{
-  path: '',
-  redirectTo: 'patient',
-  pathMatch: 'full',
-}, 
-  {  
+// }, 
+  {
+    
     path: 'patient',
-    component: HomepageLayoutComponent,
+    component: LayoutComponent,
     children: [
       {
         path: '',
-        loadChildren: () => import('./homepage/homepage-layout/homepage-layout.module').then(mod => mod.HomepageLayoutModule)
+        loadChildren: () => import('./layout/layout.module').then(mod => mod.LayoutModule)
       }
     ]
     

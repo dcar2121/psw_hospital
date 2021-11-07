@@ -14,9 +14,9 @@ export class FeedbackService {
     feedbackUrl = GlobalSettings.baseUrl + "/api/Feedback";
 
     constructor(private http: HttpClient) { }
-
+  
     public getFeedbacks(): Observable<Feedback[]>{
-      return this.http.get<Feedback[]>(this.feedbackUrl);
+      return this.http.get<Feedback[]>(this.feedbackUrl+'/Approved');
     }
 
     addFeedback(leaveFeedback: LeaveFeedback): Observable<LeaveFeedback> {

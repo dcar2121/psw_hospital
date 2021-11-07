@@ -1,23 +1,51 @@
 import { NgModule } from '@angular/core';
-import { HttpClient, HttpClientModule, HttpHandler } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
-import { AppRoutingModule } from './app-routing.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { ToastrModule } from 'ngx-toastr';
+
 import { AppComponent } from './app.component';
+import { HomePageComponent } from './home/homePage.component';
+import { PharmacyFeedbackComponent } from './pharmacyFeedback/pharmacyFeedback.component';
+import { PharmacyFeedbackFormComponent } from './pharmacyFeedbackForm/pharmacyFeedbackForm.component';
+import { PharmacyFeedbacksComponent } from './pharmacyFeedbacks/pharmacyFeedbacks.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import {HttpClientModule} from '@angular/common/http';
+import { HospitalMapComponent } from './hospital-map/hospital-map.component';
+import { FirstfloorComponent } from './firstfloor/firstfloor.component';
 import { PatientFeedbacksComponent } from './patient-feedbacks/patient-feedbacks.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
+    HomePageComponent,
+    PharmacyFeedbackComponent,
+    SidebarComponent,
+    PharmacyFeedbackFormComponent,
+    PharmacyFeedbacksComponent,
+    HospitalMapComponent,
+    FirstfloorComponent,
     PatientFeedbacksComponent
   ],
   imports: [
     BrowserModule,
-    HttpClientModule,
-    AppRoutingModule,
     RouterModule.forRoot([
-      {path: 'patient-feedbacks', component: PatientFeedbacksComponent }
-    ])
+      { path: 'pharmacyFeedback', component: PharmacyFeedbackComponent },
+      { path: 'home', component: HomePageComponent },
+      { path: '', redirectTo: 'home', pathMatch: 'full' },
+      { path: 'app-hospital-map',component : HospitalMapComponent},
+      { path: 'app-firstfloor',component : FirstfloorComponent},
+      { path: 'patient-feedbacks', component: PatientFeedbacksComponent },
+      { path: '**', redirectTo: 'home', pathMatch: 'full' }
+    ]),
+    FormsModule,
+    HttpClientModule,
+    BrowserAnimationsModule,
+    ToastrModule.forRoot(),
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
