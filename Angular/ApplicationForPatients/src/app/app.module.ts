@@ -1,29 +1,34 @@
+import { HttpClient, HttpClientModule, HttpHandler } from '@angular/common/http';
 import { NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ToastrModule } from 'ngx-toastr';
 import { AppRoutingModule } from './app-routing.module';
+
+
 import { AppComponent } from './app.component';
 import { HomepageLayoutComponent } from './homepage/homepage-layout/homepage-layout.component';
 import { HomepageLayoutModule } from './homepage/homepage-layout/homepage-layout.module';
-import { LandingpageLayoutModule } from './landingpage/landingpage-layout/landingpage-layout.module';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageLayoutComponent,
-    
-    
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
-    HomepageLayoutModule,
-    LandingpageLayoutModule,
-    FontAwesomeModule
+    FormsModule,
+    ToastrModule.forRoot(),
+    BrowserAnimationsModule,
+    ReactiveFormsModule,
+    HomepageLayoutModule
   ],
-  providers: [],
+  providers: [ ],
   bootstrap: [AppComponent]
+
 })
 export class AppModule { }
