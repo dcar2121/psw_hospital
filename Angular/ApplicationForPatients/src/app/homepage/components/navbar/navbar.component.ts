@@ -26,13 +26,12 @@ export const ROUTES: RouteInfo[] = [
 
 export class NavbarComponent implements OnInit{
     private listTitles: any[];
-    //location: Location;
+    location: Location;
     private toggleButton: any;
     private sidebarVisible: boolean;
 
-
-    constructor(private element: ElementRef) {
-     
+    constructor(location: Location,  private element: ElementRef) {
+      this.location = location;
           this.sidebarVisible = false;
     }
 

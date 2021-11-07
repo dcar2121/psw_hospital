@@ -4,6 +4,7 @@ import { LeaveFeedback } from '../shared/leaveFeedback';
 import { Observable, throwError } from 'rxjs';
 import { catchError } from 'rxjs/operators';
 import { GlobalSettings } from '../global';
+import { Feedback } from '../models/feedback';
 
 @Injectable({
   providedIn: 'root',
@@ -13,8 +14,10 @@ export class FeedbackService {
     feedbackUrl = GlobalSettings.baseUrl + "/api/Feedback";
 
     constructor(private http: HttpClient) { }
-
-    
+  
+    public getFeedbacks(): Observable<Feedback[]>{
+      return this.http.get<Feedback[]>(this.feedbackUrl+'/Approved');
+    }
 
     addFeedback(leaveFeedback: LeaveFeedback): Observable<LeaveFeedback> {
       console.log('in addFeedback mrthod');

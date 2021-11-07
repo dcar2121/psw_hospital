@@ -6,7 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./secondfloor.component.css']
 })
 export class SecondfloorComponent implements OnInit {
-
   
   additionalInformation = true;
   imageUrl: string = "../../assets/images/32356.png"
@@ -104,6 +103,10 @@ export class SecondfloorComponent implements OnInit {
       
     }
     
+  constructor() { }
+
+  ngOnInit(): void {
+
   }
 
 }
