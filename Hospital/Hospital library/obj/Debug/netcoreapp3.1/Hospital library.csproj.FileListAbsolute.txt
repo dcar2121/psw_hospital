@@ -8,3 +8,13 @@ D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospit
 D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital library.csproj.CoreCompileInputs.cache
 D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital library.dll
 D:\FAKS\IV godina\7. semestar\PSW\FIRMA 6 - BOLNICA\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital library.pdb
+C:\Users\Georgije\Desktop\pswTEMP\psw_hospital\Hospital\Hospital library\bin\Debug\netcoreapp3.1\Hospital library.deps.json
+C:\Users\Georgije\Desktop\pswTEMP\psw_hospital\Hospital\Hospital library\bin\Debug\netcoreapp3.1\Hospital library.dll
+C:\Users\Georgije\Desktop\pswTEMP\psw_hospital\Hospital\Hospital library\bin\Debug\netcoreapp3.1\Hospital library.pdb
+C:\Users\Georgije\Desktop\pswTEMP\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital library.csproj.AssemblyReference.cache
+C:\Users\Georgije\Desktop\pswTEMP\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Georgije\Desktop\pswTEMP\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital library.AssemblyInfoInputs.cache
+C:\Users\Georgije\Desktop\pswTEMP\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital library.AssemblyInfo.cs
+C:\Users\Georgije\Desktop\pswTEMP\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital library.csproj.CoreCompileInputs.cache
+C:\Users\Georgije\Desktop\pswTEMP\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital library.dll
+C:\Users\Georgije\Desktop\pswTEMP\psw_hospital\Hospital\Hospital library\obj\Debug\netcoreapp3.1\Hospital library.pdb

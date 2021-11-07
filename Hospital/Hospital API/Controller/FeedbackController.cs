@@ -28,6 +28,13 @@ namespace Hospital_API.Controller
             _mapper = mapper;
         }
 
+        [HttpGet]
+        [Route("{Approved}")]
+        public IActionResult GetApprovedFeedbacks()
+        {
+            return Ok(_feedbackService.GetAllApproved());
+        }
+
         [HttpPost]
         public IActionResult Add(FeedbackDTO dto) 
         {

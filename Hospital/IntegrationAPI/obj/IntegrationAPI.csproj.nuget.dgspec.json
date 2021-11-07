@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FAKS\\IV godina\\7. semestar\\PSW\\FIRMA 6 - BOLNICA\\psw_hospital\\Hospital\\IntegrationAPI\\IntegrationAPI.csproj": {}
+    "C:\\Users\\Georgije\\Desktop\\pswTEMP\\psw_hospital\\Hospital\\IntegrationAPI\\IntegrationAPI.csproj": {}
   },
   "projects": {
-    "D:\\FAKS\\IV godina\\7. semestar\\PSW\\FIRMA 6 - BOLNICA\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj": {
+    "C:\\Users\\Georgije\\Desktop\\pswTEMP\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FAKS\\IV godina\\7. semestar\\PSW\\FIRMA 6 - BOLNICA\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj",
+        "projectUniqueName": "C:\\Users\\Georgije\\Desktop\\pswTEMP\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj",
         "projectName": "Integration library",
-        "projectPath": "D:\\FAKS\\IV godina\\7. semestar\\PSW\\FIRMA 6 - BOLNICA\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj",
-        "packagesPath": "C:\\Users\\Beric\\.nuget\\packages\\",
-        "outputPath": "D:\\FAKS\\IV godina\\7. semestar\\PSW\\FIRMA 6 - BOLNICA\\psw_hospital\\Hospital\\Integration library\\obj\\",
+        "projectPath": "C:\\Users\\Georgije\\Desktop\\pswTEMP\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj",
+        "packagesPath": "C:\\Users\\Georgije\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Georgije\\Desktop\\pswTEMP\\psw_hospital\\Hospital\\Integration library\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Beric\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Georgije\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[3.1.0, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
               "target": "Package",
@@ -86,21 +86,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\FAKS\\IV godina\\7. semestar\\PSW\\FIRMA 6 - BOLNICA\\psw_hospital\\Hospital\\IntegrationAPI\\IntegrationAPI.csproj": {
+    "C:\\Users\\Georgije\\Desktop\\pswTEMP\\psw_hospital\\Hospital\\IntegrationAPI\\IntegrationAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FAKS\\IV godina\\7. semestar\\PSW\\FIRMA 6 - BOLNICA\\psw_hospital\\Hospital\\IntegrationAPI\\IntegrationAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Georgije\\Desktop\\pswTEMP\\psw_hospital\\Hospital\\IntegrationAPI\\IntegrationAPI.csproj",
         "projectName": "IntegrationAPI",
-        "projectPath": "D:\\FAKS\\IV godina\\7. semestar\\PSW\\FIRMA 6 - BOLNICA\\psw_hospital\\Hospital\\IntegrationAPI\\IntegrationAPI.csproj",
-        "packagesPath": "C:\\Users\\Beric\\.nuget\\packages\\",
-        "outputPath": "D:\\FAKS\\IV godina\\7. semestar\\PSW\\FIRMA 6 - BOLNICA\\psw_hospital\\Hospital\\IntegrationAPI\\obj\\",
+        "projectPath": "C:\\Users\\Georgije\\Desktop\\pswTEMP\\psw_hospital\\Hospital\\IntegrationAPI\\IntegrationAPI.csproj",
+        "packagesPath": "C:\\Users\\Georgije\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Georgije\\Desktop\\pswTEMP\\psw_hospital\\Hospital\\IntegrationAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Beric\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Georgije\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -114,8 +114,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\FAKS\\IV godina\\7. semestar\\PSW\\FIRMA 6 - BOLNICA\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj": {
-                "projectPath": "D:\\FAKS\\IV godina\\7. semestar\\PSW\\FIRMA 6 - BOLNICA\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj"
+              "C:\\Users\\Georgije\\Desktop\\pswTEMP\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj": {
+                "projectPath": "C:\\Users\\Georgije\\Desktop\\pswTEMP\\psw_hospital\\Hospital\\Integration library\\Integration library.csproj"
               }
             }
           }
@@ -167,12 +167,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.19, 3.1.19]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -181,7 +175,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
