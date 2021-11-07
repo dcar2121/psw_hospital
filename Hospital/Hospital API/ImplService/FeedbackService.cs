@@ -12,11 +12,11 @@ namespace Hospital_API.Service
     public class FeedbackService : IFeedbackService
     {
         public HospitalRepositoryFactory _repositoryFactory;
-        
+
         public FeedbackService(HospitalRepositoryFactory repositoryFactory)
         {
             _repositoryFactory = repositoryFactory;
-           
+
         }
 
         public List<ViewFeedbackDTO> GetAllApproved()
@@ -28,19 +28,29 @@ namespace Hospital_API.Service
             foreach (Feedback feedback in feedbacks)
             {
                 Person person = persons.Find(id => id.Id == feedback.PersonId);
-                feedbackDTOs.Add(new ViewFeedbackDTO(person.Name + " " + person.Surname, feedback.Text, feedback.Date));
+                if (feedback.State == FeedbackState.approved)
+                {
+                    if (feedback.Anonymous)
+                    {
+                        feedbackDTOs.Add(new ViewFeedbackDTO("Anonymous", feedback.Text, feedback.Date));
+                    }
+                    else
+                    {
+                        feedbackDTOs.Add(new ViewFeedbackDTO(person.Name + " " + person.Surname, feedback.Text, feedback.Date));
+                    }
+                }
             }
             return feedbackDTOs;
         }
 
-        public void Add(Feedback feedback) 
+        public void Add(Feedback feedback)
         {
-            if(feedback.Date == null)
+            if (feedback.Date == null)
             {
                 feedback.Date = DateTime.Now;
             }
             _repositoryFactory.GetFeedbackRepository().Add(feedback);
-        } 
+        }
 
         public List<Feedback> GetAll()
         {
@@ -66,5 +76,5 @@ namespace Hospital_API.Service
             _repositoryFactory.GetFeedbackRepository().Update(feedback);
         }
     }
-        
+
 }

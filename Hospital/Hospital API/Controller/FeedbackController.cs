@@ -48,6 +48,7 @@ namespace Hospital_API.Controller
                 
             return Ok();
         }
+
         [HttpGet]
         public IActionResult GetFeedbacks()
         {

@@ -1,12 +1,12 @@
-<!DOCTYPE html>
-<html>
-<style>
-table, th, td {
-  border:1px solid black;
-}
-</style>
-<body>
+<div style="display: flex; justify-content: space-between;">
 
+    <div class="sidebar" data-color="red" data-image="" style="margin-right: 30px;">
+        
+        <app-sidebar></app-sidebar>
+        
+        <div class="sidebar-background" style="background-image: url(assets/img/sidebar-5.jpg)"></div>
+    </div>
+<div style="margin-left: 600px;">
 <h2>Tabele sa svim feedback-ovima</h2>
 
 <div *ngFor = "let fdb of feedbacks">
@@ -21,10 +21,5 @@ table, th, td {
     </table>
     <br>
 </div>
-  
-</body>
-</html>
-
-
-
-
+</div>
+</div>
